@@ -13,15 +13,41 @@ if SRC.exists():
     raise SystemExit(f"Refusing to overwrite existing: {SRC}")
 
 shutil.copytree(SRC_DIR, DST_DIR, dirs_exist_ok=True)
-
 src = SRC.read_text(encoding="utf-8")
-old = '''def meaning_frame_coverage_check(target, frame):\n    warnings, critical = [], []\n    for slot, rows in (frame or {}).items():\n        for row in rows or []:\n            cands = row.get("targetCandidates") or []\n'''
-new = '''def meaning_frame_coverage_check(target, frame):\n    warnings, critical = [], []\n    for slot, rows in (frame or {}).items():\n        # MeaningFrame contains scalar metadata (e.g. version) as well as list slots.\n        # Coverage must inspect only semantic slot lists and only dictionary rows.\n        if not isinstance(rows, list):\n            continue\n        for row in rows:\n            if not isinstance(row, dict):\n                continue\n            cands = row.get("targetCandidates") or []\n'''
-if old not in src:
-    raise SystemExit("Expected FIX649A coverage-check block was not found; no source change made.")
 
-src = src.replace(old, new, 1)
-# Keep runtime artifacts self-identifying as FIX649B.
+start = src.find("def meaning_frame_coverage_check(target, frame):")
+if start < 0:
+    raise SystemExit("meaning_frame_coverage_check() was not found; no source change made.")
+
+end = src.find("\n\n\n# Compact lexical-role vocabulary", start)
+if end < 0:
+    raise SystemExit("Coverage-check function boundary was not found; no source change made.")
+
+old_block = src[start:end]
+new_block = '''def meaning_frame_coverage_check(target, frame):
+    """Check only high-confidence, authoritative slots; ordinary semantic equivalents remain free."""
+    warnings, critical = [], []
+    for slot, rows in (frame or {}).items():
+        # MeaningFrame contains scalar metadata (e.g. version) as well as list slots.
+        # Coverage must inspect only semantic slot lists and only dictionary rows.
+        if not isinstance(rows, list):
+            continue
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            cands = row.get("targetCandidates") or []
+            if not cands or row.get("confidence") != "HIGH":
+                continue
+            authority = str(row.get("semanticAuthority", "SOFT")).upper()
+            if authority != "STRONG":
+                continue
+            if not contains_any_candidate(target, cands):
+                msg = f"MEANING_FRAME_COVERAGE_LOSS slot={slot} span={row.get('sourceSpan')} role={row.get('role')} expected={cands}"
+                critical.append(msg)
+    return warnings, critical
+'''
+
+src = src[:start] + new_block + src[end:]
 src = src.replace("FIX649A", "FIX649B")
 SRC.write_text(src, encoding="utf-8", newline="\n")
 

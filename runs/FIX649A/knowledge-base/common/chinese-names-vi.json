@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "packId": "common-chinese-names-vi-seed-v1",
+  "description": "Hán-Việt/common Vietnamese readings for common Chinese surnames and name elements. Soft evidence only unless a Series entry is user-verified.",
+  "entries": [
+    {
+      "source": "叶",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Ye surname",
+      "preferredTarget": "Diệp",
+      "targetCandidates": [
+        "Diệp"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "林",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Lin surname",
+      "preferredTarget": "Lâm",
+      "targetCandidates": [
+        "Lâm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "李",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Li surname",
+      "preferredTarget": "Lý",
+      "targetCandidates": [
+        "Lý"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "王",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Wang surname",
+      "preferredTarget": "Vương",
+      "targetCandidates": [
+        "Vương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "赵",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Zhao surname",
+      "preferredTarget": "Triệu",
+      "targetCandidates": [
+        "Triệu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "陈",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Chen surname",
+      "preferredTarget": "Trần",
+      "targetCandidates": [
+        "Trần"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "杨",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Yang surname",
+      "preferredTarget": "Dương",
+      "targetCandidates": [
+        "Dương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "萧",
+      "aliases": [
+        "肖"
+      ],
+      "category": "surname",
+      "semanticSense": "Xiao surname",
+      "preferredTarget": "Tiêu",
+      "targetCandidates": [
+        "Tiêu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "秦",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Qin surname",
+      "preferredTarget": "Tần",
+      "targetCandidates": [
+        "Tần"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "楚",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Chu surname",
+      "preferredTarget": "Sở",
+      "targetCandidates": [
+        "Sở"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "苏",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Su surname",
+      "preferredTarget": "Tô",
+      "targetCandidates": [
+        "Tô"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "顾",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Gu surname",
+      "preferredTarget": "Cố",
+      "targetCandidates": [
+        "Cố"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "韩",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Han surname",
+      "preferredTarget": "Hàn",
+      "targetCandidates": [
+        "Hàn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "唐",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Tang surname",
+      "preferredTarget": "Đường",
+      "targetCandidates": [
+        "Đường"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "慕容",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Murong compound surname",
+      "preferredTarget": "Mộ Dung",
+      "targetCandidates": [
+        "Mộ Dung"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "欧阳",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Ouyang compound surname",
+      "preferredTarget": "Âu Dương",
+      "targetCandidates": [
+        "Âu Dương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "司马",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Sima compound surname",
+      "preferredTarget": "Tư Mã",
+      "targetCandidates": [
+        "Tư Mã"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "上官",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Shangguan compound surname",
+      "preferredTarget": "Thượng Quan",
+      "targetCandidates": [
+        "Thượng Quan"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "诸葛",
+      "aliases": [],
+      "category": "surname",
+      "semanticSense": "Zhuge compound surname",
+      "preferredTarget": "Gia Cát",
+      "targetCandidates": [
+        "Gia Cát"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,4529 @@
+{
+  "schemaVersion": 2,
+  "packId": "common-chinese-surnames-v3-fix643",
+  "description": "Broad generic Chinese surname/compound-surname lexicon. Soft evidence only; never mutates source.",
+  "entries": [
+    {
+      "source": "赵",
+      "preferredTarget": "Triệu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Triệu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "钱",
+      "preferredTarget": "Tiền",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tiền"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "孙",
+      "preferredTarget": "Tôn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tôn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "李",
+      "preferredTarget": "Lý",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lý"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "周",
+      "preferredTarget": "Chu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "吴",
+      "preferredTarget": "Ngô",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ngô"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "郑",
+      "preferredTarget": "Trịnh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trịnh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "王",
+      "preferredTarget": "Vương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "冯",
+      "preferredTarget": "Phùng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phùng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "陈",
+      "preferredTarget": "Trần",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trần"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "褚",
+      "preferredTarget": "Chử",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chử"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "卫",
+      "preferredTarget": "Vệ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vệ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "蒋",
+      "preferredTarget": "Tưởng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tưởng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "沈",
+      "preferredTarget": "Thẩm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thẩm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "韩",
+      "preferredTarget": "Hàn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hàn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "杨",
+      "preferredTarget": "Dương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Dương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "朱",
+      "preferredTarget": "Chu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "秦",
+      "preferredTarget": "Tần",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tần"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "尤",
+      "preferredTarget": "Vưu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vưu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "许",
+      "preferredTarget": "Hứa",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hứa"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "何",
+      "preferredTarget": "Hà",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hà"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "吕",
+      "preferredTarget": "Lữ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lữ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "施",
+      "preferredTarget": "Thi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "张",
+      "preferredTarget": "Trương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "孔",
+      "preferredTarget": "Khổng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Khổng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "曹",
+      "preferredTarget": "Tào",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tào"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "严",
+      "preferredTarget": "Nghiêm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nghiêm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "华",
+      "preferredTarget": "Hoa",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hoa"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "金",
+      "preferredTarget": "Kim",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kim"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "魏",
+      "preferredTarget": "Ngụy",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ngụy"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "陶",
+      "preferredTarget": "Đào",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đào"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "姜",
+      "preferredTarget": "Khương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Khương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "戚",
+      "preferredTarget": "Thích",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thích"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "谢",
+      "preferredTarget": "Tạ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tạ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "邹",
+      "preferredTarget": "Trâu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trâu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "喻",
+      "preferredTarget": "Dụ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Dụ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "柏",
+      "preferredTarget": "Bách",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bách"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "水",
+      "preferredTarget": "Thủy",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thủy"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "窦",
+      "preferredTarget": "Đậu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đậu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "章",
+      "preferredTarget": "Chương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "云",
+      "preferredTarget": "Vân",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vân"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "苏",
+      "preferredTarget": "Tô",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tô"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "潘",
+      "preferredTarget": "Phan",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phan"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "葛",
+      "preferredTarget": "Cát",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cát"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "奚",
+      "preferredTarget": "Hề",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hề"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "范",
+      "preferredTarget": "Phạm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phạm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "彭",
+      "preferredTarget": "Bành",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bành"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "郎",
+      "preferredTarget": "Lang",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lang"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "鲁",
+      "preferredTarget": "Lỗ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lỗ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "韦",
+      "preferredTarget": "Vi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "昌",
+      "preferredTarget": "Xương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Xương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "马",
+      "preferredTarget": "Mã",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mã"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "苗",
+      "preferredTarget": "Miêu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Miêu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "凤",
+      "preferredTarget": "Phượng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phượng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "花",
+      "preferredTarget": "Hoa",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hoa"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "方",
+      "preferredTarget": "Phương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "俞",
+      "preferredTarget": "Du",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Du"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "任",
+      "preferredTarget": "Nhậm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nhậm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "袁",
+      "preferredTarget": "Viên",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Viên"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "柳",
+      "preferredTarget": "Liễu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Liễu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "鲍",
+      "preferredTarget": "Bào",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bào"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "史",
+      "preferredTarget": "Sử",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Sử"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "唐",
+      "preferredTarget": "Đường",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đường"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "费",
+      "preferredTarget": "Phí",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phí"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "廉",
+      "preferredTarget": "Liêm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Liêm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "岑",
+      "preferredTarget": "Sầm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Sầm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "薛",
+      "preferredTarget": "Tiết",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tiết"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "雷",
+      "preferredTarget": "Lôi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lôi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "贺",
+      "preferredTarget": "Hạ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hạ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "倪",
+      "preferredTarget": "Nghê",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nghê"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "汤",
+      "preferredTarget": "Thang",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thang"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "滕",
+      "preferredTarget": "Đằng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đằng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "殷",
+      "preferredTarget": "Ân",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ân"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "罗",
+      "preferredTarget": "La",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "La"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "毕",
+      "preferredTarget": "Tất",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tất"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "郝",
+      "preferredTarget": "Hách",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hách"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "邬",
+      "preferredTarget": "Ô",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ô"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "安",
+      "preferredTarget": "An",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "An"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "常",
+      "preferredTarget": "Thường",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thường"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "乐",
+      "preferredTarget": "Nhạc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nhạc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "于",
+      "preferredTarget": "Vu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "时",
+      "preferredTarget": "Thời",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thời"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "傅",
+      "preferredTarget": "Phó",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phó"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "皮",
+      "preferredTarget": "Bì",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bì"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "卞",
+      "preferredTarget": "Biện",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Biện"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "齐",
+      "preferredTarget": "Tề",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tề"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "康",
+      "preferredTarget": "Khang",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Khang"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "伍",
+      "preferredTarget": "Ngũ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ngũ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "余",
+      "preferredTarget": "Dư",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Dư"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "元",
+      "preferredTarget": "Nguyên",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nguyên"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "卜",
+      "preferredTarget": "Bốc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bốc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "顾",
+      "preferredTarget": "Cố",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cố"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "孟",
+      "preferredTarget": "Mạnh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mạnh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "平",
+      "preferredTarget": "Bình",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bình"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "黄",
+      "preferredTarget": "Hoàng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hoàng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "和",
+      "preferredTarget": "Hòa",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hòa"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "穆",
+      "preferredTarget": "Mục",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mục"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "萧",
+      "preferredTarget": "Tiêu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tiêu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "尹",
+      "preferredTarget": "Doãn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Doãn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "姚",
+      "preferredTarget": "Diêu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Diêu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "邵",
+      "preferredTarget": "Thiệu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thiệu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "湛",
+      "preferredTarget": "Trạm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trạm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "汪",
+      "preferredTarget": "Uông",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Uông"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "祁",
+      "preferredTarget": "Kỳ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kỳ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "毛",
+      "preferredTarget": "Mao",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mao"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "禹",
+      "preferredTarget": "Vũ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vũ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "狄",
+      "preferredTarget": "Địch",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Địch"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "米",
+      "preferredTarget": "Mễ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mễ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "贝",
+      "preferredTarget": "Bối",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bối"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "明",
+      "preferredTarget": "Minh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Minh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "臧",
+      "preferredTarget": "Tang",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tang"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "计",
+      "preferredTarget": "Kế",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kế"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "伏",
+      "preferredTarget": "Phục",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phục"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "成",
+      "preferredTarget": "Thành",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thành"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "戴",
+      "preferredTarget": "Đới",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đới"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "谈",
+      "preferredTarget": "Đàm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đàm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宋",
+      "preferredTarget": "Tống",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tống"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "茅",
+      "preferredTarget": "Mao",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mao"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "庞",
+      "preferredTarget": "Bàng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bàng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "熊",
+      "preferredTarget": "Hùng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hùng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "纪",
+      "preferredTarget": "Kỷ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kỷ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "舒",
+      "preferredTarget": "Thư",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thư"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "屈",
+      "preferredTarget": "Khuất",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Khuất"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "项",
+      "preferredTarget": "Hạng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hạng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "祝",
+      "preferredTarget": "Chúc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chúc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "董",
+      "preferredTarget": "Đổng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đổng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "梁",
+      "preferredTarget": "Lương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "杜",
+      "preferredTarget": "Đỗ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đỗ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "阮",
+      "preferredTarget": "Nguyễn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nguyễn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "蓝",
+      "preferredTarget": "Lam",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lam"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "闵",
+      "preferredTarget": "Mẫn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mẫn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "席",
+      "preferredTarget": "Tịch",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tịch"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "季",
+      "preferredTarget": "Quý",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Quý"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "麻",
+      "preferredTarget": "Ma",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ma"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "强",
+      "preferredTarget": "Cường",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cường"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "贾",
+      "preferredTarget": "Giả",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Giả"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "路",
+      "preferredTarget": "Lộ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lộ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "娄",
+      "preferredTarget": "Lâu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lâu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "危",
+      "preferredTarget": "Nguy",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nguy"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "江",
+      "preferredTarget": "Giang",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Giang"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "童",
+      "preferredTarget": "Đồng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đồng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "颜",
+      "preferredTarget": "Nhan",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nhan"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "郭",
+      "preferredTarget": "Quách",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Quách"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "梅",
+      "preferredTarget": "Mai",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mai"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "林",
+      "preferredTarget": "Lâm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lâm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "刁",
+      "preferredTarget": "Điêu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Điêu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "钟",
+      "preferredTarget": "Chung",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chung"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "徐",
+      "preferredTarget": "Từ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Từ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "邱",
+      "preferredTarget": "Khâu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Khâu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "骆",
+      "preferredTarget": "Lạc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lạc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "高",
+      "preferredTarget": "Cao",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cao"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "夏",
+      "preferredTarget": "Hạ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hạ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "蔡",
+      "preferredTarget": "Thái",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thái"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "田",
+      "preferredTarget": "Điền",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Điền"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "樊",
+      "preferredTarget": "Phàn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phàn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "胡",
+      "preferredTarget": "Hồ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hồ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "凌",
+      "preferredTarget": "Lăng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lăng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "霍",
+      "preferredTarget": "Hoắc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hoắc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "虞",
+      "preferredTarget": "Ngu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ngu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "万",
+      "preferredTarget": "Vạn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vạn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "支",
+      "preferredTarget": "Chi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "柯",
+      "preferredTarget": "Kha",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kha"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "昝",
+      "preferredTarget": "Tảm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tảm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "管",
+      "preferredTarget": "Quản",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Quản"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "卢",
+      "preferredTarget": "Lư",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lư"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "莫",
+      "preferredTarget": "Mạc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mạc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "经",
+      "preferredTarget": "Kinh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kinh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "房",
+      "preferredTarget": "Phòng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phòng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "裘",
+      "preferredTarget": "Cừu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cừu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "缪",
+      "preferredTarget": "Mâu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mâu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "干",
+      "preferredTarget": "Can",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Can"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "解",
+      "preferredTarget": "Giải",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Giải"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "应",
+      "preferredTarget": "Ứng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ứng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宗",
+      "preferredTarget": "Tông",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tông"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "丁",
+      "preferredTarget": "Đinh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đinh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宣",
+      "preferredTarget": "Tuyên",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tuyên"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "贲",
+      "preferredTarget": "Bí",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bí"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "邓",
+      "preferredTarget": "Đặng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đặng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "郁",
+      "preferredTarget": "Úc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Úc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "单",
+      "preferredTarget": "Đơn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đơn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "杭",
+      "preferredTarget": "Hàng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hàng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "洪",
+      "preferredTarget": "Hồng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hồng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "包",
+      "preferredTarget": "Bao",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bao"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "左",
+      "preferredTarget": "Tả",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tả"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "石",
+      "preferredTarget": "Thạch",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thạch"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "崔",
+      "preferredTarget": "Thôi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thôi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "吉",
+      "preferredTarget": "Cát",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cát"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "龚",
+      "preferredTarget": "Cung",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cung"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "程",
+      "preferredTarget": "Trình",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trình"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "嵇",
+      "preferredTarget": "Kê",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kê"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "邢",
+      "preferredTarget": "Hình",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hình"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "裴",
+      "preferredTarget": "Bùi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bùi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "陆",
+      "preferredTarget": "Lục",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lục"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "荣",
+      "preferredTarget": "Vinh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vinh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "翁",
+      "preferredTarget": "Ông",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ông"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "荀",
+      "preferredTarget": "Tuân",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tuân"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "羊",
+      "preferredTarget": "Dương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Dương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "惠",
+      "preferredTarget": "Huệ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Huệ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "甄",
+      "preferredTarget": "Chân",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chân"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "曲",
+      "preferredTarget": "Khúc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Khúc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "封",
+      "preferredTarget": "Phong",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phong"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "芮",
+      "preferredTarget": "Nhuế",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nhuế"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "羿",
+      "preferredTarget": "Nghệ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nghệ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "储",
+      "preferredTarget": "Trữ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trữ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "靳",
+      "preferredTarget": "Cận",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cận"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "汲",
+      "preferredTarget": "Cấp",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cấp"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "邴",
+      "preferredTarget": "Bính",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bính"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "糜",
+      "preferredTarget": "Mi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "松",
+      "preferredTarget": "Tùng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tùng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "井",
+      "preferredTarget": "Tỉnh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tỉnh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "段",
+      "preferredTarget": "Đoàn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đoàn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "富",
+      "preferredTarget": "Phú",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phú"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "巫",
+      "preferredTarget": "Vu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "乌",
+      "preferredTarget": "Ô",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ô"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "焦",
+      "preferredTarget": "Tiêu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tiêu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "巴",
+      "preferredTarget": "Ba",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ba"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "弓",
+      "preferredTarget": "Cung",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cung"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "牧",
+      "preferredTarget": "Mục",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mục"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "隗",
+      "preferredTarget": "Ngỗi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ngỗi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "山",
+      "preferredTarget": "Sơn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Sơn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "谷",
+      "preferredTarget": "Cốc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cốc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "车",
+      "preferredTarget": "Xa",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Xa"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "侯",
+      "preferredTarget": "Hầu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hầu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宓",
+      "preferredTarget": "Mật",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mật"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "蓬",
+      "preferredTarget": "Bồng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bồng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "全",
+      "preferredTarget": "Toàn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Toàn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "郗",
+      "preferredTarget": "Hy",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hy"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "班",
+      "preferredTarget": "Ban",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ban"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "仰",
+      "preferredTarget": "Ngưỡng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ngưỡng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "秋",
+      "preferredTarget": "Thu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "仲",
+      "preferredTarget": "Trọng",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trọng"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "伊",
+      "preferredTarget": "Y",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Y"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宫",
+      "preferredTarget": "Cung",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cung"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宁",
+      "preferredTarget": "Ninh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ninh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "仇",
+      "preferredTarget": "Cừu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cừu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "栾",
+      "preferredTarget": "Loan",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Loan"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "暴",
+      "preferredTarget": "Bạo",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bạo"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "甘",
+      "preferredTarget": "Cam",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cam"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "钭",
+      "preferredTarget": "Đẩu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đẩu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "厉",
+      "preferredTarget": "Lệ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lệ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "戎",
+      "preferredTarget": "Nhung",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nhung"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "祖",
+      "preferredTarget": "Tổ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tổ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "武",
+      "preferredTarget": "Vũ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vũ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "符",
+      "preferredTarget": "Phù",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Phù"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "刘",
+      "preferredTarget": "Lưu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lưu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "景",
+      "preferredTarget": "Cảnh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cảnh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "詹",
+      "preferredTarget": "Chiêm",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chiêm"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "束",
+      "preferredTarget": "Thúc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thúc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "龙",
+      "preferredTarget": "Long",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Long"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "叶",
+      "preferredTarget": "Diệp",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Diệp"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "幸",
+      "preferredTarget": "Hạnh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hạnh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "司",
+      "preferredTarget": "Tư",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tư"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "韶",
+      "preferredTarget": "Thiều",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thiều"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "郜",
+      "preferredTarget": "Cáo",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cáo"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "黎",
+      "preferredTarget": "Lê",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lê"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "蓟",
+      "preferredTarget": "Kế",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kế"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "薄",
+      "preferredTarget": "Bạc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bạc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "印",
+      "preferredTarget": "Ấn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Ấn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宿",
+      "preferredTarget": "Túc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Túc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "白",
+      "preferredTarget": "Bạch",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bạch"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "怀",
+      "preferredTarget": "Hoài",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hoài"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "蒲",
+      "preferredTarget": "Bồ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bồ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "欧阳",
+      "preferredTarget": "Âu Dương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Âu Dương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "太史",
+      "preferredTarget": "Thái Sử",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thái Sử"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "端木",
+      "preferredTarget": "Đoan Mộc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đoan Mộc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "上官",
+      "preferredTarget": "Thượng Quan",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thượng Quan"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "司马",
+      "preferredTarget": "Tư Mã",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tư Mã"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "东方",
+      "preferredTarget": "Đông Phương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đông Phương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "独孤",
+      "preferredTarget": "Độc Cô",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Độc Cô"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "南宫",
+      "preferredTarget": "Nam Cung",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nam Cung"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "万俟",
+      "preferredTarget": "Mặc Kỳ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mặc Kỳ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "闻人",
+      "preferredTarget": "Văn Nhân",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Văn Nhân"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "夏侯",
+      "preferredTarget": "Hạ Hầu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hạ Hầu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "诸葛",
+      "preferredTarget": "Gia Cát",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Gia Cát"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "尉迟",
+      "preferredTarget": "Uất Trì",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Uất Trì"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "公羊",
+      "preferredTarget": "Công Dương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Công Dương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "赫连",
+      "preferredTarget": "Hách Liên",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hách Liên"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "澹台",
+      "preferredTarget": "Đạm Đài",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đạm Đài"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "皇甫",
+      "preferredTarget": "Hoàng Phủ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hoàng Phủ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宗政",
+      "preferredTarget": "Tông Chính",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tông Chính"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "濮阳",
+      "preferredTarget": "Bộc Dương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bộc Dương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "公冶",
+      "preferredTarget": "Công Dã",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Công Dã"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "太叔",
+      "preferredTarget": "Thái Thúc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thái Thúc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "申屠",
+      "preferredTarget": "Thân Đồ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thân Đồ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "公孙",
+      "preferredTarget": "Công Tôn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Công Tôn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "慕容",
+      "preferredTarget": "Mộ Dung",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Mộ Dung"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "仲孙",
+      "preferredTarget": "Trọng Tôn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trọng Tôn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "钟离",
+      "preferredTarget": "Chung Ly",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chung Ly"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "长孙",
+      "preferredTarget": "Trưởng Tôn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Trưởng Tôn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宇文",
+      "preferredTarget": "Vũ Văn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vũ Văn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "司徒",
+      "preferredTarget": "Tư Đồ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tư Đồ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "司空",
+      "preferredTarget": "Tư Không",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tư Không"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "亓官",
+      "preferredTarget": "Kỳ Quan",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Kỳ Quan"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "司寇",
+      "preferredTarget": "Tư Khấu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tư Khấu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "子车",
+      "preferredTarget": "Tử Xa",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tử Xa"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "颛孙",
+      "preferredTarget": "Chuyên Tôn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Chuyên Tôn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "巫马",
+      "preferredTarget": "Vu Mã",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vu Mã"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "公西",
+      "preferredTarget": "Công Tây",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Công Tây"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "漆雕",
+      "preferredTarget": "Tất Điêu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tất Điêu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "乐正",
+      "preferredTarget": "Nhạc Chính",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nhạc Chính"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "壤驷",
+      "preferredTarget": "Nhưỡng Tứ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nhưỡng Tứ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "公良",
+      "preferredTarget": "Công Lương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Công Lương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "拓跋",
+      "preferredTarget": "Thác Bạt",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Thác Bạt"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "夹谷",
+      "preferredTarget": "Giáp Cốc",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Giáp Cốc"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "宰父",
+      "preferredTarget": "Tể Phụ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tể Phụ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "谷梁",
+      "preferredTarget": "Cốc Lương",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Cốc Lương"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "梁丘",
+      "preferredTarget": "Lương Khâu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lương Khâu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "左丘",
+      "preferredTarget": "Tả Khâu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tả Khâu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "东门",
+      "preferredTarget": "Đông Môn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đông Môn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "西门",
+      "preferredTarget": "Tây Môn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tây Môn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "南门",
+      "preferredTarget": "Nam Môn",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Nam Môn"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "第五",
+      "preferredTarget": "Đệ Ngũ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đệ Ngũ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "公仪",
+      "preferredTarget": "Công Nghi",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Công Nghi"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "公乘",
+      "preferredTarget": "Công Thừa",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Công Thừa"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "令狐",
+      "preferredTarget": "Lệnh Hồ",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lệnh Hồ"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "轩辕",
+      "preferredTarget": "Hiên Viên",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hiên Viên"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "百里",
+      "preferredTarget": "Bách Lý",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Bách Lý"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "东郭",
+      "preferredTarget": "Đông Quách",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Đông Quách"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "呼延",
+      "preferredTarget": "Hô Diên",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Hô Diên"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "羊舌",
+      "preferredTarget": "Dương Thiệt",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Dương Thiệt"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "微生",
+      "preferredTarget": "Vi Sinh",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Vi Sinh"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "鲜于",
+      "preferredTarget": "Tiên Vu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Tiên Vu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    },
+    {
+      "source": "闾丘",
+      "preferredTarget": "Lư Khâu",
+      "category": "surname",
+      "semanticSense": "Chinese surname / compound surname",
+      "targetCandidates": [
+        "Lư Khâu"
+      ],
+      "scope": "COMMON",
+      "hardness": "soft",
+      "verified": false,
+      "targetTextAuthority": false,
+      "criticalForQa": false
+    }
+  ]
+}

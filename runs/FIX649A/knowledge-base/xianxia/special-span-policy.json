@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-special-span-policy-fix648",
+  "description": "Whole-span resolver with named-parent dominance, creature namedness, semantic ownership and target-text authority separation.",
+  "typePriority": {
+    "PERSON_NAME": 100,
+    "NAMED_ARTIFACT": 95,
+    "NAMED_TECHNIQUE": 95,
+    "NAMED_PLACE_OR_SECT": 92,
+    "IDIOM_FIXED_EXPRESSION": 90,
+    "DOMAIN_ARTIFACT": 75,
+    "GENERIC_DOMAIN_TERM": 70,
+    "ORDINARY_OBJECT": 40,
+    "ORDINARY_PHRASE": 30,
+    "UNCERTAIN": 10,
+    "NAMED_CREATURE": 96
+  },
+  "categoryTypeMap": {
+    "idiom": "IDIOM_FIXED_EXPRESSION",
+    "artifact": "DOMAIN_ARTIFACT",
+    "weapon": "DOMAIN_ARTIFACT",
+    "talisman": "DOMAIN_ARTIFACT",
+    "technique": "GENERIC_DOMAIN_TERM",
+    "formation": "GENERIC_DOMAIN_TERM",
+    "formation_component": "GENERIC_DOMAIN_TERM",
+    "cultivation-realm": "GENERIC_DOMAIN_TERM",
+    "cultivation-state": "GENERIC_DOMAIN_TERM",
+    "place": "GENERIC_DOMAIN_TERM",
+    "faction": "GENERIC_DOMAIN_TERM",
+    "beast": "GENERIC_DOMAIN_TERM",
+    "beast-role": "GENERIC_DOMAIN_TERM",
+    "beast-rank": "GENERIC_DOMAIN_TERM",
+    "beast-event": "GENERIC_DOMAIN_TERM",
+    "beast-contract": "GENERIC_DOMAIN_TERM",
+    "beast-resource": "GENERIC_DOMAIN_TERM",
+    "beast-species": "GENERIC_DOMAIN_TERM",
+    "race": "GENERIC_DOMAIN_TERM"
+  },
+  "compoundClassTypeMap": {
+    "artifact": "DOMAIN_ARTIFACT",
+    "formation_talisman": "DOMAIN_ARTIFACT",
+    "technique_text": "GENERIC_DOMAIN_TERM",
+    "formation_component": "GENERIC_DOMAIN_TERM",
+    "faction_place": "GENERIC_DOMAIN_TERM",
+    "material": "ORDINARY_OBJECT",
+    "cultivation": "GENERIC_DOMAIN_TERM",
+    "realm_world": "GENERIC_DOMAIN_TERM"
+  },
+  "namedArtifactCuesBefore": [
+    "名为",
+    "名叫",
+    "叫作",
+    "叫做",
+    "唤作",
+    "称为",
+    "叫"
+  ],
+  "namedTechniqueCuesBefore": [
+    "名为",
+    "名叫",
+    "叫作",
+    "叫做",
+    "这门术法叫",
+    "这门功法叫",
+    "叫"
+  ],
+  "namedGenericCuesBefore": [
+    "名为",
+    "名叫",
+    "叫作",
+    "叫做",
+    "唤作",
+    "称为",
+    "叫"
+  ],
+  "artifactIdentityCuesAfter": [
+    "是法宝",
+    "为法宝",
+    "乃法宝",
+    "是一件法宝",
+    "是师父赐",
+    "是宗门赐"
+  ],
+  "ordinaryObjectCues": [
+    "普通",
+    "只是",
+    "器具",
+    "照明用",
+    "厨房",
+    "凡物",
+    "不是法宝",
+    "不能当成法宝",
+    "当成法宝"
+  ],
+  "ordinaryModifierCategories": [
+    "color",
+    "material_modifier",
+    "material_anchor",
+    "element_material"
+  ],
+  "domainModifierCategories": [
+    "cultivation",
+    "element",
+    "element_modifier",
+    "domain_modifier",
+    "seal_domain",
+    "formation_component",
+    "formation_anchor",
+    "artifact_head",
+    "artifact_anchor",
+    "technique_anchor",
+    "technique_modifier"
+  ],
+  "nameTargetTextAuthority": true,
+  "namedEntityTargetTextAuthority": true,
+  "idiomTargetTextAuthority": false,
+  "maxNamedCueDistanceChars": 10,
+  "negationLexicalExceptions": {
+    "别": [
+      "的"
+    ]
+  },
+  "quantity": {
+    "strongQuantifiers": {
+      "最多": [
+        "nhiều nhất",
+        "tối đa"
+      ],
+      "至少": [
+        "ít nhất",
+        "tối thiểu"
+      ],
+      "不超过": [
+        "không quá",
+        "tối đa"
+      ],
+      "不少于": [
+        "không ít hơn",
+        "ít nhất"
+      ]
+    },
+    "fractionMarkers": {
+      "半": [
+        "nửa",
+        "một nửa"
+      ]
+    },
+    "cardinals": {
+      "两": [
+        "hai"
+      ],
+      "二": [
+        "hai"
+      ],
+      "三": [
+        "ba"
+      ],
+      "四": [
+        "bốn"
+      ],
+      "五": [
+        "năm"
+      ],
+      "六": [
+        "sáu"
+      ],
+      "七": [
+        "bảy"
+      ],
+      "八": [
+        "tám"
+      ],
+      "九": [
+        "chín"
+      ],
+      "十": [
+        "mười"
+      ]
+    },
+    "durationUnits": {
+      "刻钟": [
+        "khắc",
+        "mười lăm phút",
+        "15 phút"
+      ],
+      "时辰": [
+        "thời thần",
+        "canh giờ",
+        "giờ"
+      ],
+      "炷香": [
+        "tuần hương",
+        "nén hương"
+      ],
+      "日": [
+        "ngày"
+      ],
+      "天": [
+        "ngày"
+      ]
+    },
+    "durationUnitRules": {
+      "时辰": {
+        "baseMinutes": 120,
+        "targetCandidates": [
+          "时辰",
+          "thời thần",
+          "canh giờ"
+        ]
+      },
+      "刻钟": {
+        "baseMinutes": 15,
+        "targetCandidates": [
+          "khắc"
+        ]
+      },
+      "炷香": {
+        "baseMinutes": null,
+        "targetCandidates": [
+          "tuần hương",
+          "nén hương"
+        ]
+      }
+    }
+  },
+  "ordinaryCompositionEligibleHeads": [
+    "镜",
+    "炉",
+    "鼎",
+    "瓶",
+    "盒",
+    "门",
+    "桌",
+    "椅",
+    "台",
+    "印"
+  ],
+  "namedArtifactHeads": [
+    "镜",
+    "印",
+    "令",
+    "珠",
+    "剑",
+    "刀",
+    "鼎",
+    "钟",
+    "旗",
+    "符",
+    "钉",
+    "塔",
+    "炉",
+    "器",
+    "环",
+    "铃",
+    "扇",
+    "柱"
+  ],
+  "namedTechniqueHeads": [
+    "诀",
+    "术",
+    "功",
+    "法",
+    "经",
+    "斩",
+    "步",
+    "掌",
+    "拳",
+    "指",
+    "式"
+  ],
+  "namedDocumentCuesBefore": [
+    "名为",
+    "名叫",
+    "叫作",
+    "叫做",
+    "唤作",
+    "称为",
+    "叫"
+  ],
+  "namedDocumentHeads": [
+    "图",
+    "卷",
+    "谱",
+    "录",
+    "典",
+    "经"
+  ],
+  "maxCueNamedSpanChars": 10,
+  "negationLexicalizedNonNegative": [
+    "并非没有",
+    "不是没有",
+    "不同",
+    "出没",
+    "深藏不露"
+  ],
+  "polarQuestionPatterns": [
+    "能不能",
+    "有没有",
+    "是不是",
+    "要不要",
+    "愿不愿意",
+    "会不会",
+    "可不可以",
+    "行不行",
+    "该不该"
+  ],
+  "namedCreatureCuesBefore": [
+    "名为",
+    "名叫",
+    "叫作",
+    "叫做",
+    "唤作",
+    "取名为",
+    "名字叫"
+  ],
+  "namedCreatureHeads": [
+    "兽",
+    "狼",
+    "狐",
+    "虎",
+    "豹",
+    "熊",
+    "蛇",
+    "蟒",
+    "蛟",
+    "龙",
+    "鹰",
+    "雕",
+    "鹤",
+    "鸾",
+    "凤",
+    "龟",
+    "猿",
+    "鹿",
+    "犀",
+    "马",
+    "兔",
+    "鱼",
+    "鲤",
+    "蛛",
+    "蚕",
+    "蝎",
+    "蜥",
+    "蟾"
+  ]
+}

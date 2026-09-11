@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-relationship-rules-v1",
+  "rules": [
+    {
+      "id": "master-disciple-disciple-to-master",
+      "relationship": "master_disciple",
+      "speakerRole": "disciple",
+      "listenerRole": "master",
+      "selfCandidates": [
+        "đệ tử"
+      ],
+      "listenerCandidates": [
+        "sư phụ",
+        "sư tôn"
+      ],
+      "targetTextAuthority": false
+    },
+    {
+      "id": "master-disciple-master-to-disciple",
+      "relationship": "master_disciple",
+      "speakerRole": "master",
+      "listenerRole": "disciple",
+      "selfCandidates": [
+        "vi sư",
+        "ta"
+      ],
+      "listenerCandidates": [
+        "đồ nhi",
+        "con"
+      ],
+      "targetTextAuthority": false
+    },
+    {
+      "id": "senior-junior",
+      "relationship": "senior_junior",
+      "speakerRole": "junior",
+      "listenerRole": "senior",
+      "selfCandidates": [
+        "vãn bối",
+        "tại hạ"
+      ],
+      "listenerCandidates": [
+        "tiền bối"
+      ],
+      "targetTextAuthority": false
+    },
+    {
+      "id": "sect-peers",
+      "relationship": "sect_peers",
+      "speakerRole": "peer",
+      "listenerRole": "peer",
+      "selfCandidates": [
+        "ta",
+        "tại hạ"
+      ],
+      "listenerCandidates": [
+        "sư huynh",
+        "sư tỷ",
+        "sư đệ",
+        "sư muội",
+        "đạo hữu"
+      ],
+      "targetTextAuthority": false
+    }
+  ]
+}

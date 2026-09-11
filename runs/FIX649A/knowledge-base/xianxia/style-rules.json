@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-vi-style-v1",
+  "genre": "xianxia",
+  "targetLanguage": "vi",
+  "styleName": "Cổ trang tự nhiên · Tu tiên",
+  "rules": [
+    "Dịch đúng nghĩa câu nguồn, không thêm tình tiết hoặc giải thích.",
+    "Giữ văn phong cổ trang/tu tiên tự nhiên, nhưng không cổ hóa quá mức nếu nguồn không có bằng chứng.",
+    "Ưu tiên thuật ngữ Hán-Việt ổn định cho cảnh giới, công pháp, pháp bảo, tông môn, đan dược và thế giới tu luyện.",
+    "Các danh xưng như 少侠、前辈、道友、师父、师尊 phải giữ đúng vai vế; tránh hiện đại hóa thành bạn/cậu/chàng trai nếu đã nhận diện được danh xưng.",
+    "Đại từ 我、你、他 không được ép cứng; chỉ chọn ta/tôi/ngươi/các hạ/đệ tử/sư phụ... khi ngữ cảnh hoặc quan hệ đủ bằng chứng.",
+    "Không sửa hoặc đoán lại câu tiếng Trung nguồn.",
+    "Nếu nguồn là mảnh câu ngắn, dịch ngắn tương ứng; không tự bịa phần còn thiếu.",
+    "Không dịch tên người thành chức danh.",
+    "Không làm mất phủ định, con số, cảnh giới, tên riêng, thuật ngữ hoặc quan hệ.",
+    "Chỉ xuất bản dịch tiếng Việt của câu hiện tại, không giải thích."
+  ],
+  "avoidWhenEvidenceExists": [
+    "bạn",
+    "cậu trai trẻ",
+    "anh chàng trẻ tuổi",
+    "thiếu gia"
+  ],
+  "notes": "avoidWhenEvidenceExists chỉ dùng để cảnh báo khi source đã có danh xưng/quan hệ cổ trang rõ; không cấm các từ này toàn cục."
+}

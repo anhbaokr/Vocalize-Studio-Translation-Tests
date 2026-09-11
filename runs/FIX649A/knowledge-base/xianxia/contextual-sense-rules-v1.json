@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 2,
+  "packId": "xianxia-contextual-sense-rules-fix642",
+  "description": "Generic term-level contextual sense reranking for xianxia. No sentence IDs, benchmark targets, filename rules, or source mutation.",
+  "sourceMutation": false,
+  "entries": [
+    {
+      "source": "护法",
+      "aliases": [],
+      "cueWindowChars": 10,
+      "selectionThreshold": 0.4,
+      "senses": [
+        {
+          "senseId": "verb-cultivation-guard",
+          "semanticRole": "VERB_ACTION",
+          "preferredTarget": "hộ pháp",
+          "targetCandidates": [
+            "hộ pháp",
+            "đứng hộ pháp"
+          ],
+          "compoundReading": "Hộ Pháp",
+          "baseScore": 0.1,
+          "qaAuthority": "STRONG",
+          "forbiddenTargetPatterns": [
+            "bảo vệ hộ pháp"
+          ],
+          "instruction": "Trong vai trò động từ: bảo hộ người đang tu luyện/thi pháp; không hiểu thành bảo vệ một người có chức danh Hộ Pháp.",
+          "when": {
+            "leftAny": [
+              "帮",
+              "替",
+              "为",
+              "正在",
+              "来",
+              "请"
+            ],
+            "leftWeight": 2.0
+          }
+        },
+        {
+          "senseId": "sect-guardian-role",
+          "semanticRole": "PERSON_ROLE",
+          "preferredTarget": "Hộ Pháp",
+          "targetCandidates": [
+            "Hộ Pháp",
+            "hộ pháp"
+          ],
+          "compoundReading": "Hộ Pháp",
+          "baseScore": 0.0,
+          "genreDefault": true,
+          "genreDefaultWeight": 0.6,
+          "qaAuthority": "SOFT",
+          "instruction": "Khi là chức danh/person role thì giữ nghĩa Hộ Pháp.",
+          "when": {
+            "localAny": [
+              "左护法",
+              "右护法",
+              "大护法"
+            ],
+            "localWeight": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "source": "封印",
+      "aliases": [],
+      "cueWindowChars": 8,
+      "selectionThreshold": 0.4,
+      "senses": [
+        {
+          "senseId": "xianxia-seal",
+          "semanticRole": "SEAL_STATE_OR_ACTION",
+          "preferredTarget": "phong ấn",
+          "targetCandidates": [
+            "phong ấn",
+            "ấn phong"
+          ],
+          "compoundReading": "Phong Ấn",
+          "baseScore": 0.4,
+          "genreDefault": true,
+          "genreDefaultWeight": 0.5,
+          "qaAuthority": "STRONG",
+          "instruction": "Trong tiên hiệp, 封印 là phong ấn/seal, không phải ổ khóa vật lý.",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "source": "山门",
+      "aliases": [],
+      "cueWindowChars": 10,
+      "selectionThreshold": 0.4,
+      "senses": [
+        {
+          "senseId": "physical-sect-gate",
+          "semanticRole": "PHYSICAL_GATE",
+          "preferredTarget": "cổng sơn môn",
+          "targetCandidates": [
+            "cổng sơn môn",
+            "cổng núi"
+          ],
+          "compoundReading": "Sơn Môn",
+          "baseScore": 0.1,
+          "qaAuthority": "SOFT",
+          "instruction": "Chỉ ưu tiên nghĩa cổng vật lý khi có hành động mở/đóng/đứng trước cổng.",
+          "when": {
+            "localAny": [
+              "打开",
+              "关闭",
+              "推开",
+              "门口",
+              "门前",
+              "开门",
+              "关门"
+            ],
+            "localWeight": 2.0
+          }
+        },
+        {
+          "senseId": "sect-domain",
+          "semanticRole": "SECT_OR_SECT_DOMAIN",
+          "preferredTarget": "sơn môn",
+          "targetCandidates": [
+            "sơn môn",
+            "môn phái",
+            "tông môn"
+          ],
+          "compoundReading": "Sơn Môn",
+          "baseScore": 0.2,
+          "genreDefault": true,
+          "genreDefaultWeight": 0.6,
+          "qaAuthority": "SOFT",
+          "instruction": "Trong ngữ cảnh ảnh hưởng/thuộc về toàn môn phái, 山门 thiên về sơn môn/tông môn chứ không chỉ cánh cổng.",
+          "when": {
+            "localAny": [
+              "整",
+              "全",
+              "牵连",
+              "返回",
+              "覆灭",
+              "上下"
+            ],
+            "localWeight": 1.4
+          }
+        }
+      ]
+    },
+    {
+      "source": "阵心",
+      "aliases": [],
+      "cueWindowChars": 8,
+      "selectionThreshold": 0.4,
+      "senses": [
+        {
+          "senseId": "formation-core",
+          "semanticRole": "FORMATION_CORE",
+          "preferredTarget": "trận tâm",
+          "targetCandidates": [
+            "trận tâm",
+            "lõi trận",
+            "tâm trận"
+          ],
+          "compoundReading": "Trận Tâm",
+          "baseScore": 0.5,
+          "genreDefault": true,
+          "genreDefaultWeight": 0.5,
+          "qaAuthority": "STRONG",
+          "forbiddenTargetPatterns": [
+            "tâm trạng",
+            "đội hình"
+          ],
+          "instruction": "阵心 là phần lõi/trung tâm của trận pháp, không phải tâm trạng hay đội hình.",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "source": "顶上",
+      "aliases": [],
+      "cueWindowChars": 10,
+      "selectionThreshold": 0.4,
+      "senses": [
+        {
+          "senseId": "temporary-substitute-support",
+          "semanticRole": "PHRASAL_VERB",
+          "preferredTarget": "tạm thay vào",
+          "targetCandidates": [
+            "tạm thay",
+            "thay vào",
+            "tạm dùng",
+            "chống đỡ",
+            "đỡ vào",
+            "thay thế",
+            "dùng thay",
+            "tạm thế vào",
+            "tạm thế"
+          ],
+          "compoundReading": "",
+          "baseScore": 0.1,
+          "qaAuthority": "STRONG",
+          "forbiddenTargetPatterns": [
+            "nâng lên trên",
+            "đẩy lên trên"
+          ],
+          "instruction": "Khi 用/拿 + vật + 顶上, hiểu là tạm dùng vật đó thay/chống đỡ, không phải chuyển động lên trên.",
+          "when": {
+            "leftAny": [
+              "用",
+              "拿",
+              "暂用"
+            ],
+            "leftWeight": 2.2
+          }
+        },
+        {
+          "senseId": "spatial-upward",
+          "semanticRole": "SPATIAL",
+          "preferredTarget": "phía trên",
+          "targetCandidates": [
+            "phía trên",
+            "trên đỉnh",
+            "ở trên"
+          ],
+          "compoundReading": "",
+          "baseScore": 0.0,
+          "genreDefault": true,
+          "genreDefaultWeight": 0.4,
+          "qaAuthority": "SOFT",
+          "instruction": "Nghĩa không gian chỉ dùng khi ngữ cảnh thực sự nói vị trí/chuyển động.",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "source": "药堂",
+      "aliases": [],
+      "cueWindowChars": 8,
+      "selectionThreshold": 0.4,
+      "senses": [
+        {
+          "senseId": "sect-medicine-hall",
+          "semanticRole": "SECT_FACILITY",
+          "preferredTarget": "Dược Đường",
+          "targetCandidates": [
+            "Dược Đường",
+            "dược đường"
+          ],
+          "compoundReading": "Dược Đường",
+          "baseScore": 0.3,
+          "genreDefault": true,
+          "genreDefaultWeight": 0.5,
+          "qaAuthority": "SOFT",
+          "forbiddenTargetPatterns": [
+            "hiệu thuốc"
+          ],
+          "instruction": "Trong môn phái/cổ phong, 药堂 là Dược Đường/cơ sở của môn phái, không mặc định là hiệu thuốc hiện đại.",
+          "when": {}
+        }
+      ]
+    },
+    {
+      "source": "五行",
+      "aliases": [],
+      "cueWindowChars": 8,
+      "selectionThreshold": 0.4,
+      "senses": [
+        {
+          "senseId": "five-elements-system",
+          "semanticRole": "COSMOLOGICAL_SYSTEM",
+          "preferredTarget": "Ngũ Hành",
+          "targetCandidates": [
+            "Ngũ Hành",
+            "ngũ hành"
+          ],
+          "compoundReading": "Ngũ Hành",
+          "baseScore": 0.4,
+          "genreDefault": true,
+          "genreDefaultWeight": 0.5,
+          "qaAuthority": "STRONG",
+          "instruction": "五行 là hệ Ngũ Hành; khi đứng trước 阵/术/诀 giữ cụm này làm semantic unit.",
+          "when": {}
+        }
+      ]
+    }
+  ]
+}

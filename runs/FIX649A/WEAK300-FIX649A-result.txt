@@ -1,0 +1,89 @@
+HY-MT1.5-1.8B + XIANXIA â€” SEMANTIC PLAN / WEAKNESS COVERAGE FIX6.4.9-A
+========================================================================================
+Model: tencent/HY-MT1.5-1.8B-GGUF:Q4_K_M
+Corpus: 300-line weakness-regression runtime (derived from FIX647 failure families; NEW sentences; single model session / single run)
+Xianxia terms: 243
+Chinese surnames: 323
+Pypinyin homophone check: OFF
+Grammar segmentation: ON
+Sino-Vietnamese morphemes: 232
+Sino-Vietnamese compound resolver: ON
+Classical Vietnamese style QA: ON
+Contextual sense rules: 7
+Compound classifier-boundary gate: ON
+Semantic-head completeness QA: ON
+Exact-surname rendering QA: ON
+Multi-token composition graph: ON
+Strong 3+char + evidence-based 2-char domain preservation: ON
+Compact report guidance: ON (NOT injected as verbose prompt metadata)
+Nominal-ellipsis semantic guard: ON
+Structural semantic frames: ON
+Evidence-based sense authority escalation: ON
+Semantic-set preservation: ON
+WHOLE-SPAN before word-by-word resolver: ON
+Head-first noun-phrase semantic composer: ON
+Creature/ecology + body/trace semantic composer: ON
+Semantic plan compression: ON (max 3 anchors)
+Semantic span ownership: named > quantity > creature > noun phrase > compound
+Named-parent dominance over contained NP fragments: ON
+semanticAuthority / targetTextAuthority split: ON
+Quantity / duration meaning frames: ON
+Lexical-role-aware negation: ON
+Hallucinated-entity guard: ON
+Per-run entity registry: ON (PERSON_NAME requires fresh current-source name evidence; persistence OFF)
+Current-source sovereignty: ON
+Output purity / single-line guard: ON
+Negation preservation guard: ON
+Data-driven surname/title morphology + lexical false-name guard: ON
+Second-pass repair: OFF
+Protected render slots: OFF
+Context: PREV/NEXT used only by deterministic sense resolver; raw context not sent to model
+Literal next-source prediction: OFF
+Next semantic expectation: ON
+Source mutation: OFF
+Series Memory persistence: OFF
+Sentence-specific target hardcode: OFF
+Seed: 42
+Total time: 11.230s
+Average: 11.230s/segment
+
+[001] PREVIOUS
+(none)
+[001] SOURCE
+桌角下面压着一块宗门通行令牌
+[001] NEXT
+这块令牌只允许外门弟子进入药园
+[001] TOKENS
+桌 | 角 | 下 | 面 | 压 | 着 | 一 | 块 | 宗门 | 通 | 行 | 令 | 牌
+[001] GRAMMAR
+{"tokens": ["桌", "角", "下", "面", "压", "着", "一", "块", "宗门", "通", "行", "令", "牌"], "pronouns": [], "negation": [], "negationOccurrences": [], "polarQuestions": [], "modality": [], "aspectTime": ["着"], "conjunctions": [], "particles": [], "features": ["aspect_or_time"], "nextSemanticExpectation": [], "contextNeeded": false}
+[001] KNOWLEDGE
+(none)
+[001] NAME
+[]
+[001] HOMOPHONE
+[]
+[001] CONTEXTUAL_SENSE
+[]
+[001] SINO_COMPOUND
+[{"sourceSpan": "行令", "tokens": ["行", "令"], "semanticUnits": [{"source": "行", "reading": "Hành", "role": "MODIFIER"}, {"source": "令", "reading": "Lệnh", "role": "HEAD"}], "candidate": "Hành Lệnh", "class": "artifact", "anchor": "令", "headReading": "Lệnh", "modifierSpan": "行", "startTokenIndex": 10, "endTokenIndex": 11, "authority": "SOFT", "semanticAuthority": "SOFT", "targetTextAuthority": false, "knowledgeHardness": "SOFT", "sourceMutation": false, "containedBy": [], "isPrimary": true}]
+[001] SEMANTIC_SET
+[]
+[001] SPECIAL_SPAN
+[{"sourceSpan": "宗门", "candidateType": "GENERIC_DOMAIN_TERM", "semanticClass": "faction", "canonicalTarget": "tông môn", "targetCandidates": ["tông môn"], "semanticAuthority": "SOFT", "targetTextAuthority": false, "criticalForQa": false, "renderingMode": "SEMANTIC_EQUIVALENT", "evidence": ["knowledge:xianxia-worlds-factions-vi-seed-v1", "category:faction"], "sourceMutation": false}, {"sourceSpan": "行令", "candidateType": "DOMAIN_ARTIFACT", "semanticClass": "artifact", "canonicalTarget": "Hành Lệnh", "targetCandidates": ["Hành Lệnh"], "semanticAuthority": "SOFT", "targetTextAuthority": false, "criticalForQa": false, "renderingMode": "SEMANTIC_EQUIVALENT", "evidence": ["compound-class:artifact", "semantic-authority:SOFT"], "sourceMutation": false}]
+[001] QUANTITY_FRAME
+[]
+[001] NOUN_PHRASE
+[{"sourceSpan": "令牌", "headSource": "令牌", "semanticClass": "domain-object", "headCandidates": ["lệnh bài", "thẻ lệnh"], "authority": "STRONG", "components": [], "renderingMode": "HEAD_FIRST_SEMANTIC_COMPOSITION", "targetTextAuthority": false, "sourceMutation": false}]
+[001] CREATURE
+[{"sourceSpan": "角", "creatureType": "CREATURE_BODY_OR_TRACE", "semanticClass": "creature-body-trace", "headSource": "角", "headCandidates": ["sừng"], "authority": "STRONG", "components": [], "targetTextAuthority": false, "sourceMutation": false}]
+[001] SEMANTIC_PLAN
+[{"priority": 97, "kind": "CREATURE", "sourceSpan": "角", "targetCandidates": ["sừng"], "exact": false, "components": [], "critical": true}, {"priority": 96, "kind": "NP_HEAD", "sourceSpan": "令牌", "targetCandidates": ["lệnh bài", "thẻ lệnh"], "exact": false, "components": [], "critical": true}]
+[001] GUIDANCE
+[]
+[001] TARGET
+
+[001] STATUS RUNTIME_ERROR
+CRIT: 'str' object has no attribute 'get'
+elapsed=11.220s
+----------------------------------------------------------------------------------------

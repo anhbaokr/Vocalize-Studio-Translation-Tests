@@ -1,0 +1,279 @@
+{
+  "model": "tencent/HY-MT1.5-1.8B-GGUF:Q4_K_M",
+  "grammarSegmentation": true,
+  "sinoVietnameseCompoundResolver": true,
+  "classicalVietnameseStyleQa": true,
+  "contextualSenseResolver": true,
+  "contextualSenseRuleCount": 7,
+  "compoundClassifierBoundaryGate": true,
+  "semanticHeadCompletenessQa": true,
+  "exactSurnameRenderingQa": true,
+  "multiTokenCompositionGraph": true,
+  "strongCompoundPreservation": true,
+  "compactStableGuidance": true,
+  "nominalEllipsisSemanticGuard": true,
+  "structuralSemanticFrames": true,
+  "evidenceBasedSenseAuthorityEscalation": true,
+  "semanticSetPreservation": true,
+  "wholeSpanBeforeWordByWord": true,
+  "headFirstNounPhraseSemantics": true,
+  "creatureEcologySemanticComposer": true,
+  "semanticPlanCompression": true,
+  "semanticSpanOwnership": "named>quantity>creature>noun-phrase>compound",
+  "specialSpanResolver": true,
+  "semanticVsTargetTextAuthority": true,
+  "quantityDurationFrames": true,
+  "lexicalRoleAwareNegation": true,
+  "hallucinatedEntityGuard": true,
+  "sessionEntityRegistryPersistence": false,
+  "oneShotCompoundRepair": false,
+  "protectedRenderSlots": false,
+  "contextPolicy": "resolver-only-prev-next-raw-context-off",
+  "literalNextPrediction": false,
+  "nextSemanticExpectation": true,
+  "sourceMutation": false,
+  "seriesMemoryPersistence": false,
+  "sentenceSpecificHardcode": false,
+  "pypinyinAvailable": false,
+  "rows": [
+    {
+      "id": 1,
+      "previousSource": "",
+      "source": "桌角下面压着一块宗门通行令牌",
+      "nextSource": "这块令牌只允许外门弟子进入药园",
+      "tokens": [
+        "桌",
+        "角",
+        "下",
+        "面",
+        "压",
+        "着",
+        "一",
+        "块",
+        "宗门",
+        "通",
+        "行",
+        "令",
+        "牌"
+      ],
+      "grammarAnalysis": {
+        "tokens": [
+          "桌",
+          "角",
+          "下",
+          "面",
+          "压",
+          "着",
+          "一",
+          "块",
+          "宗门",
+          "通",
+          "行",
+          "令",
+          "牌"
+        ],
+        "pronouns": [],
+        "negation": [],
+        "negationOccurrences": [],
+        "polarQuestions": [],
+        "modality": [],
+        "aspectTime": [
+          "着"
+        ],
+        "conjunctions": [],
+        "particles": [],
+        "features": [
+          "aspect_or_time"
+        ],
+        "nextSemanticExpectation": [],
+        "contextNeeded": false
+      },
+      "matchedKnowledge": [],
+      "nameCandidates": [],
+      "homophoneSurnameRisks": [],
+      "contextualSenses": [],
+      "sinoVietnameseCompounds": [
+        {
+          "sourceSpan": "行令",
+          "tokens": [
+            "行",
+            "令"
+          ],
+          "semanticUnits": [
+            {
+              "source": "行",
+              "reading": "Hành",
+              "role": "MODIFIER"
+            },
+            {
+              "source": "令",
+              "reading": "Lệnh",
+              "role": "HEAD"
+            }
+          ],
+          "candidate": "Hành Lệnh",
+          "class": "artifact",
+          "anchor": "令",
+          "headReading": "Lệnh",
+          "modifierSpan": "行",
+          "startTokenIndex": 10,
+          "endTokenIndex": 11,
+          "authority": "SOFT",
+          "semanticAuthority": "SOFT",
+          "targetTextAuthority": false,
+          "knowledgeHardness": "SOFT",
+          "sourceMutation": false,
+          "containedBy": [],
+          "isPrimary": true
+        }
+      ],
+      "semanticSets": [],
+      "specialSpans": [
+        {
+          "sourceSpan": "宗门",
+          "candidateType": "GENERIC_DOMAIN_TERM",
+          "semanticClass": "faction",
+          "canonicalTarget": "tông môn",
+          "targetCandidates": [
+            "tông môn"
+          ],
+          "semanticAuthority": "SOFT",
+          "targetTextAuthority": false,
+          "criticalForQa": false,
+          "renderingMode": "SEMANTIC_EQUIVALENT",
+          "evidence": [
+            "knowledge:xianxia-worlds-factions-vi-seed-v1",
+            "category:faction"
+          ],
+          "sourceMutation": false
+        },
+        {
+          "sourceSpan": "行令",
+          "candidateType": "DOMAIN_ARTIFACT",
+          "semanticClass": "artifact",
+          "canonicalTarget": "Hành Lệnh",
+          "targetCandidates": [
+            "Hành Lệnh"
+          ],
+          "semanticAuthority": "SOFT",
+          "targetTextAuthority": false,
+          "criticalForQa": false,
+          "renderingMode": "SEMANTIC_EQUIVALENT",
+          "evidence": [
+            "compound-class:artifact",
+            "semantic-authority:SOFT"
+          ],
+          "sourceMutation": false
+        }
+      ],
+      "quantityFrames": [],
+      "nounPhrases": [
+        {
+          "sourceSpan": "令牌",
+          "headSource": "令牌",
+          "semanticClass": "domain-object",
+          "headCandidates": [
+            "lệnh bài",
+            "thẻ lệnh"
+          ],
+          "authority": "STRONG",
+          "components": [],
+          "renderingMode": "HEAD_FIRST_SEMANTIC_COMPOSITION",
+          "targetTextAuthority": false,
+          "sourceMutation": false
+        }
+      ],
+      "creatureSemantics": [
+        {
+          "sourceSpan": "角",
+          "creatureType": "CREATURE_BODY_OR_TRACE",
+          "semanticClass": "creature-body-trace",
+          "headSource": "角",
+          "headCandidates": [
+            "sừng"
+          ],
+          "authority": "STRONG",
+          "components": [],
+          "targetTextAuthority": false,
+          "sourceMutation": false
+        }
+      ],
+      "semanticPlan": [
+        {
+          "priority": 97,
+          "kind": "CREATURE",
+          "sourceSpan": "角",
+          "targetCandidates": [
+            "sừng"
+          ],
+          "exact": false,
+          "components": [],
+          "critical": true
+        },
+        {
+          "priority": 96,
+          "kind": "NP_HEAD",
+          "sourceSpan": "令牌",
+          "targetCandidates": [
+            "lệnh bài",
+            "thẻ lệnh"
+          ],
+          "exact": false,
+          "components": [],
+          "critical": true
+        }
+      ],
+      "meaningFrame": {
+        "version": "FIX6.4.9-A",
+        "subject": [],
+        "predicate": [],
+        "object": [],
+        "negation": [],
+        "modality": [],
+        "quantity": [],
+        "duration": [],
+        "entity": [
+          {
+            "sourceSpan": "宗门",
+            "sourceStart": null,
+            "sourceEnd": null,
+            "role": "GENERIC_DOMAIN_TERM",
+            "confidence": "HIGH",
+            "targetCandidates": [],
+            "semanticAuthority": "SOFT",
+            "evidence": [
+              "special-span"
+            ]
+          },
+          {
+            "sourceSpan": "行令",
+            "sourceStart": null,
+            "sourceEnd": null,
+            "role": "DOMAIN_ARTIFACT",
+            "confidence": "HIGH",
+            "targetCandidates": [],
+            "semanticAuthority": "SOFT",
+            "evidence": [
+              "special-span"
+            ]
+          }
+        ],
+        "domain": [],
+        "modifier": [],
+        "relation": [],
+        "body_part": [],
+        "new_feature": []
+      },
+      "guidanceItems": [],
+      "target": "",
+      "status": "RUNTIME_ERROR",
+      "warnings": [],
+      "critical": [
+        "'str' object has no attribute 'get'"
+      ],
+      "elapsed_s": 11.219868399999541,
+      "ok": false
+    }
+  ],
+  "total_s": 11.229739599999448
+}

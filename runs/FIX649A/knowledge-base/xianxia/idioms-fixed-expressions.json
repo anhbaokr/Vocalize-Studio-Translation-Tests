@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-idioms-vi-seed-fix648",
+  "description": "Thành ngữ/cụm cố định thường gặp trong thoại cổ trang, võ hiệp, tu tiên.",
+  "entries": [
+    {
+      "source": "助一臂之力",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "lend a hand/help",
+      "preferredTarget": "giúp một tay",
+      "targetCandidates": [
+        "giúp một tay",
+        "trợ giúp một tay",
+        "trợ một tay"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.99,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": ""
+    },
+    {
+      "source": "一臂之力",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "a helping hand; natural Vietnamese idiom is 'giúp một tay'",
+      "preferredTarget": "giúp một tay",
+      "targetCandidates": [
+        "giúp một tay",
+        "trợ giúp",
+        "một tay trợ giúp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.97,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "手下留情",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "show mercy",
+      "preferredTarget": "nương tay",
+      "targetCandidates": [
+        "nương tay"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "不共戴天",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "mortal enmity",
+      "preferredTarget": "không đội trời chung",
+      "targetCandidates": [
+        "không đội trời chung"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "走火入魔",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "cultivation deviation",
+      "preferredTarget": "tẩu hỏa nhập ma",
+      "targetCandidates": [
+        "tẩu hỏa nhập ma"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灰飞烟灭",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "annihilated completely",
+      "preferredTarget": "hôi phi yên diệt",
+      "targetCandidates": [
+        "hôi phi yên diệt",
+        "tan thành tro bụi"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "魂飞魄散",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "soul scattered",
+      "preferredTarget": "hồn phi phách tán",
+      "targetCandidates": [
+        "hồn phi phách tán"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "形神俱灭",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "body and spirit annihilated",
+      "preferredTarget": "hình thần câu diệt",
+      "targetCandidates": [
+        "hình thần câu diệt"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "生死道消",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "death and Dao extinguished",
+      "preferredTarget": "thân tử đạo tiêu",
+      "targetCandidates": [
+        "thân tử đạo tiêu"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "出事",
+      "aliases": [],
+      "category": "event",
+      "semanticSense": "have something bad happen",
+      "preferredTarget": "gặp chuyện",
+      "targetCandidates": [
+        "gặp chuyện",
+        "gặp bất trắc",
+        "xảy ra chuyện"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.95,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "执迷不悟",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "stubbornly persist in delusion/error",
+      "preferredTarget": "chấp mê bất ngộ",
+      "targetCandidates": [
+        "chấp mê bất ngộ",
+        "mê muội không tỉnh ngộ",
+        "cố chấp không tỉnh ngộ"
+      ],
+      "scope": "COMMON",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Whole-span idiom; do not translate character by character."
+    },
+    {
+      "source": "深藏不露",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "conceal true ability",
+      "preferredTarget": "thâm tàng bất lộ",
+      "targetCandidates": [
+        "thâm tàng bất lộ",
+        "giấu kín thực lực",
+        "ẩn giấu thực lực"
+      ],
+      "scope": "COMMON",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Whole-span meaning; not character-by-character."
+    },
+    {
+      "source": "迫在眉睫",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "extremely urgent/imminent",
+      "preferredTarget": "cấp bách trước mắt",
+      "targetCandidates": [
+        "cấp bách trước mắt",
+        "vô cùng cấp bách",
+        "đã cận kề",
+        "cấp bách"
+      ],
+      "scope": "COMMON",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Whole-span meaning; not character-by-character."
+    },
+    {
+      "source": "九死一生",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "narrow escape from death",
+      "preferredTarget": "cửu tử nhất sinh",
+      "targetCandidates": [
+        "cửu tử nhất sinh",
+        "thập tử nhất sinh",
+        "chín phần chết một phần sống"
+      ],
+      "scope": "COMMON",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Whole-span meaning; not character-by-character."
+    },
+    {
+      "source": "坐以待毙",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "sit and wait for death",
+      "preferredTarget": "ngồi chờ chết",
+      "targetCandidates": [
+        "ngồi chờ chết",
+        "khoanh tay chờ chết"
+      ],
+      "scope": "COMMON",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Whole-span meaning; not character-by-character."
+    },
+    {
+      "source": "赶尽杀绝",
+      "aliases": [],
+      "category": "idiom",
+      "semanticSense": "exterminate completely",
+      "preferredTarget": "đuổi cùng giết tận",
+      "targetCandidates": [
+        "đuổi cùng giết tận",
+        "diệt sạch"
+      ],
+      "scope": "COMMON",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Whole-span meaning; not character-by-character."
+    }
+  ]
+}

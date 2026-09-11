@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-cultivation-vi-seed-v1",
+  "description": "Thuật ngữ tu luyện, cảnh giới, khí lực và kiếp nạn.",
+  "entries": [
+    {
+      "source": "修炼",
+      "aliases": [],
+      "category": "cultivation",
+      "semanticSense": "practice cultivation",
+      "preferredTarget": "tu luyện",
+      "targetCandidates": [
+        "tu luyện"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "修为",
+      "aliases": [],
+      "category": "cultivation",
+      "semanticSense": "cultivation level",
+      "preferredTarget": "tu vi",
+      "targetCandidates": [
+        "tu vi"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "境界",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "cultivation realm",
+      "preferredTarget": "cảnh giới",
+      "targetCandidates": [
+        "cảnh giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "炼气",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Qi Refining realm",
+      "preferredTarget": "Luyện Khí",
+      "targetCandidates": [
+        "Luyện Khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "筑基",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Foundation Establishment realm",
+      "preferredTarget": "Trúc Cơ",
+      "targetCandidates": [
+        "Trúc Cơ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "筑基境",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Foundation Establishment realm",
+      "preferredTarget": "Trúc Cơ Cảnh",
+      "targetCandidates": [
+        "Trúc Cơ Cảnh"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "金丹",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Golden Core realm",
+      "preferredTarget": "Kim Đan",
+      "targetCandidates": [
+        "Kim Đan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "元婴",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Nascent Soul realm",
+      "preferredTarget": "Nguyên Anh",
+      "targetCandidates": [
+        "Nguyên Anh"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "化神",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Spirit Transformation realm",
+      "preferredTarget": "Hóa Thần",
+      "targetCandidates": [
+        "Hóa Thần"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "炼虚",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Void Refinement realm",
+      "preferredTarget": "Luyện Hư",
+      "targetCandidates": [
+        "Luyện Hư"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "合体",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Body Integration realm",
+      "preferredTarget": "Hợp Thể",
+      "targetCandidates": [
+        "Hợp Thể"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "大乘",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Mahayana/Great Vehicle realm",
+      "preferredTarget": "Đại Thừa",
+      "targetCandidates": [
+        "Đại Thừa"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "渡劫",
+      "aliases": [],
+      "category": "cultivation-realm",
+      "semanticSense": "Tribulation Crossing realm",
+      "preferredTarget": "Độ Kiếp",
+      "targetCandidates": [
+        "Độ Kiếp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "飞升",
+      "aliases": [],
+      "category": "cultivation",
+      "semanticSense": "ascend to higher realm",
+      "preferredTarget": "phi thăng",
+      "targetCandidates": [
+        "phi thăng"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "突破",
+      "aliases": [],
+      "category": "cultivation-action",
+      "semanticSense": "break through a realm",
+      "preferredTarget": "đột phá",
+      "targetCandidates": [
+        "đột phá"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "闭关",
+      "aliases": [],
+      "category": "cultivation-action",
+      "semanticSense": "enter secluded cultivation",
+      "preferredTarget": "bế quan",
+      "targetCandidates": [
+        "bế quan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "走火入魔",
+      "aliases": [],
+      "category": "cultivation-state",
+      "semanticSense": "cultivation deviation",
+      "preferredTarget": "tẩu hỏa nhập ma",
+      "targetCandidates": [
+        "tẩu hỏa nhập ma"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "真气",
+      "aliases": [],
+      "category": "energy",
+      "semanticSense": "true qi",
+      "preferredTarget": "chân khí",
+      "targetCandidates": [
+        "chân khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": ""
+    },
+    {
+      "source": "灵气",
+      "aliases": [],
+      "category": "energy",
+      "semanticSense": "spiritual qi",
+      "preferredTarget": "linh khí",
+      "targetCandidates": [
+        "linh khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵力",
+      "aliases": [],
+      "category": "energy",
+      "semanticSense": "spiritual power",
+      "preferredTarget": "linh lực",
+      "targetCandidates": [
+        "linh lực"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "真元",
+      "aliases": [],
+      "category": "energy",
+      "semanticSense": "true essence",
+      "preferredTarget": "chân nguyên",
+      "targetCandidates": [
+        "chân nguyên"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "仙力",
+      "aliases": [],
+      "category": "energy",
+      "semanticSense": "immortal power",
+      "preferredTarget": "tiên lực",
+      "targetCandidates": [
+        "tiên lực"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "魔气",
+      "aliases": [],
+      "category": "energy",
+      "semanticSense": "demonic qi",
+      "preferredTarget": "ma khí",
+      "targetCandidates": [
+        "ma khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神力",
+      "aliases": [],
+      "category": "energy",
+      "semanticSense": "divine power",
+      "preferredTarget": "thần lực",
+      "targetCandidates": [
+        "thần lực"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神识",
+      "aliases": [],
+      "category": "cultivation-sense",
+      "semanticSense": "spiritual consciousness",
+      "preferredTarget": "thần thức",
+      "targetCandidates": [
+        "thần thức"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神魂",
+      "aliases": [],
+      "category": "soul",
+      "semanticSense": "divine soul",
+      "preferredTarget": "thần hồn",
+      "targetCandidates": [
+        "thần hồn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "元神",
+      "aliases": [],
+      "category": "soul",
+      "semanticSense": "primordial spirit",
+      "preferredTarget": "nguyên thần",
+      "targetCandidates": [
+        "nguyên thần"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "丹田",
+      "aliases": [],
+      "category": "body",
+      "semanticSense": "dantian",
+      "preferredTarget": "đan điền",
+      "targetCandidates": [
+        "đan điền"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "经脉",
+      "aliases": [],
+      "category": "body",
+      "semanticSense": "meridians",
+      "preferredTarget": "kinh mạch",
+      "targetCandidates": [
+        "kinh mạch"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵根",
+      "aliases": [],
+      "category": "aptitude",
+      "semanticSense": "spiritual root",
+      "preferredTarget": "linh căn",
+      "targetCandidates": [
+        "linh căn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "血脉",
+      "aliases": [],
+      "category": "aptitude",
+      "semanticSense": "bloodline",
+      "preferredTarget": "huyết mạch",
+      "targetCandidates": [
+        "huyết mạch"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "体质",
+      "aliases": [],
+      "category": "aptitude",
+      "semanticSense": "special constitution",
+      "preferredTarget": "thể chất",
+      "targetCandidates": [
+        "thể chất"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "道体",
+      "aliases": [],
+      "category": "aptitude",
+      "semanticSense": "Dao body",
+      "preferredTarget": "đạo thể",
+      "targetCandidates": [
+        "đạo thể"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "圣体",
+      "aliases": [],
+      "category": "aptitude",
+      "semanticSense": "sacred body",
+      "preferredTarget": "thánh thể",
+      "targetCandidates": [
+        "thánh thể"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神体",
+      "aliases": [],
+      "category": "aptitude",
+      "semanticSense": "divine body",
+      "preferredTarget": "thần thể",
+      "targetCandidates": [
+        "thần thể"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "天道",
+      "aliases": [],
+      "category": "dao",
+      "semanticSense": "Heavenly Dao",
+      "preferredTarget": "Thiên Đạo",
+      "targetCandidates": [
+        "Thiên Đạo"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "大道",
+      "aliases": [],
+      "category": "dao",
+      "semanticSense": "Great Dao",
+      "preferredTarget": "Đại Đạo",
+      "targetCandidates": [
+        "Đại Đạo"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "道心",
+      "aliases": [],
+      "category": "dao",
+      "semanticSense": "Dao heart",
+      "preferredTarget": "đạo tâm",
+      "targetCandidates": [
+        "đạo tâm"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "心魔",
+      "aliases": [],
+      "category": "tribulation",
+      "semanticSense": "inner demon",
+      "preferredTarget": "tâm ma",
+      "targetCandidates": [
+        "tâm ma"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "天劫",
+      "aliases": [],
+      "category": "tribulation",
+      "semanticSense": "heavenly tribulation",
+      "preferredTarget": "thiên kiếp",
+      "targetCandidates": [
+        "thiên kiếp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "雷劫",
+      "aliases": [],
+      "category": "tribulation",
+      "semanticSense": "lightning tribulation",
+      "preferredTarget": "lôi kiếp",
+      "targetCandidates": [
+        "lôi kiếp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "历劫",
+      "aliases": [],
+      "category": "tribulation",
+      "semanticSense": "undergo a tribulation",
+      "preferredTarget": "lịch kiếp",
+      "targetCandidates": [
+        "lịch kiếp",
+        "trải kiếp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.95,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "力竭",
+      "aliases": [],
+      "category": "physical-state",
+      "semanticSense": "exhausted, strength depleted",
+      "preferredTarget": "kiệt sức",
+      "targetCandidates": [
+        "kiệt sức",
+        "sức lực cạn kiệt"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": ""
+    },
+    {
+      "source": "寿元",
+      "aliases": [],
+      "category": "cultivation",
+      "semanticSense": "lifespan",
+      "preferredTarget": "thọ nguyên",
+      "targetCandidates": [
+        "thọ nguyên"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "因果",
+      "aliases": [],
+      "category": "dao",
+      "semanticSense": "karma/cause and effect",
+      "preferredTarget": "nhân quả",
+      "targetCandidates": [
+        "nhân quả"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "气运",
+      "aliases": [],
+      "category": "dao",
+      "semanticSense": "fortune/luck",
+      "preferredTarget": "khí vận",
+      "targetCandidates": [
+        "khí vận"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    }
+  ]
+}

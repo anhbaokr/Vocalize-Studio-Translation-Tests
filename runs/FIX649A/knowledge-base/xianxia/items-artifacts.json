@@ -1,0 +1,811 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-items-artifacts-vi-fix648",
+  "description": "Pháp bảo, vũ khí, vật liệu, đan dược và tài nguyên tu luyện.",
+  "entries": [
+    {
+      "source": "法宝",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "magical treasure",
+      "preferredTarget": "pháp bảo",
+      "targetCandidates": [
+        "pháp bảo"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵器",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "spiritual artifact",
+      "preferredTarget": "linh khí",
+      "targetCandidates": [
+        "linh khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "法器",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "magical implement",
+      "preferredTarget": "pháp khí",
+      "targetCandidates": [
+        "pháp khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "宝器",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "treasure artifact",
+      "preferredTarget": "bảo khí",
+      "targetCandidates": [
+        "bảo khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "仙器",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "immortal artifact",
+      "preferredTarget": "tiên khí",
+      "targetCandidates": [
+        "tiên khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神器",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "divine artifact",
+      "preferredTarget": "thần khí",
+      "targetCandidates": [
+        "thần khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "圣器",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "sacred artifact",
+      "preferredTarget": "thánh khí",
+      "targetCandidates": [
+        "thánh khí"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "飞剑",
+      "aliases": [],
+      "category": "weapon",
+      "semanticSense": "flying sword",
+      "preferredTarget": "phi kiếm",
+      "targetCandidates": [
+        "phi kiếm"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵剑",
+      "aliases": [],
+      "category": "weapon",
+      "semanticSense": "spirit sword",
+      "preferredTarget": "linh kiếm",
+      "targetCandidates": [
+        "linh kiếm"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "仙剑",
+      "aliases": [],
+      "category": "weapon",
+      "semanticSense": "immortal sword",
+      "preferredTarget": "tiên kiếm",
+      "targetCandidates": [
+        "tiên kiếm"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神剑",
+      "aliases": [],
+      "category": "weapon",
+      "semanticSense": "divine sword",
+      "preferredTarget": "thần kiếm",
+      "targetCandidates": [
+        "thần kiếm"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "玄铁",
+      "aliases": [],
+      "category": "material",
+      "semanticSense": "mystic iron",
+      "preferredTarget": "Huyền Thiết",
+      "targetCandidates": [
+        "Huyền Thiết"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "玄冰",
+      "aliases": [],
+      "category": "material",
+      "semanticSense": "mystic/profound ice",
+      "preferredTarget": "Huyền Băng",
+      "targetCandidates": [
+        "Huyền Băng"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神铁",
+      "aliases": [],
+      "category": "material",
+      "semanticSense": "divine iron",
+      "preferredTarget": "Thần Thiết",
+      "targetCandidates": [
+        "Thần Thiết"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵木",
+      "aliases": [],
+      "category": "material",
+      "semanticSense": "spiritual wood",
+      "preferredTarget": "linh mộc",
+      "targetCandidates": [
+        "linh mộc"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "天材地宝",
+      "aliases": [],
+      "category": "resource",
+      "semanticSense": "rare natural treasures",
+      "preferredTarget": "thiên tài địa bảo",
+      "targetCandidates": [
+        "thiên tài địa bảo"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵石",
+      "aliases": [],
+      "category": "resource",
+      "semanticSense": "spirit stone",
+      "preferredTarget": "linh thạch",
+      "targetCandidates": [
+        "linh thạch"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵晶",
+      "aliases": [],
+      "category": "resource",
+      "semanticSense": "spirit crystal",
+      "preferredTarget": "linh tinh",
+      "targetCandidates": [
+        "linh tinh"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "仙石",
+      "aliases": [],
+      "category": "resource",
+      "semanticSense": "immortal stone",
+      "preferredTarget": "tiên thạch",
+      "targetCandidates": [
+        "tiên thạch"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵液",
+      "aliases": [],
+      "category": "resource",
+      "semanticSense": "spiritual liquid",
+      "preferredTarget": "linh dịch",
+      "targetCandidates": [
+        "linh dịch"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "精血",
+      "aliases": [],
+      "category": "resource",
+      "semanticSense": "blood essence",
+      "preferredTarget": "tinh huyết",
+      "targetCandidates": [
+        "tinh huyết"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "妖丹",
+      "aliases": [],
+      "category": "resource",
+      "semanticSense": "demon core",
+      "preferredTarget": "yêu đan",
+      "targetCandidates": [
+        "yêu đan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "内丹",
+      "aliases": [],
+      "category": "resource",
+      "semanticSense": "inner core",
+      "preferredTarget": "nội đan",
+      "targetCandidates": [
+        "nội đan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "丹药",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "pill/elixir",
+      "preferredTarget": "đan dược",
+      "targetCandidates": [
+        "đan dược"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵丹",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "spiritual pill",
+      "preferredTarget": "linh đan",
+      "targetCandidates": [
+        "linh đan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "仙丹",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "immortal pill",
+      "preferredTarget": "tiên đan",
+      "targetCandidates": [
+        "tiên đan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "丹方",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "pill recipe",
+      "preferredTarget": "đan phương",
+      "targetCandidates": [
+        "đan phương"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "炼丹",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "alchemy/pill refining",
+      "preferredTarget": "luyện đan",
+      "targetCandidates": [
+        "luyện đan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "丹炉",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "alchemy furnace",
+      "preferredTarget": "đan lô",
+      "targetCandidates": [
+        "đan lô"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "药材",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "medicinal material",
+      "preferredTarget": "dược liệu",
+      "targetCandidates": [
+        "dược liệu"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵药",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "spiritual medicine",
+      "preferredTarget": "linh dược",
+      "targetCandidates": [
+        "linh dược"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵草",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "spiritual herb",
+      "preferredTarget": "linh thảo",
+      "targetCandidates": [
+        "linh thảo"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "丹毒",
+      "aliases": [],
+      "category": "alchemy",
+      "semanticSense": "pill toxin",
+      "preferredTarget": "đan độc",
+      "targetCandidates": [
+        "đan độc"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "功法",
+      "aliases": [],
+      "category": "technique",
+      "semanticSense": "cultivation method",
+      "preferredTarget": "công pháp",
+      "targetCandidates": [
+        "công pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "心法",
+      "aliases": [],
+      "category": "technique",
+      "semanticSense": "inner cultivation method",
+      "preferredTarget": "tâm pháp",
+      "targetCandidates": [
+        "tâm pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "秘术",
+      "aliases": [],
+      "category": "technique",
+      "semanticSense": "secret art",
+      "preferredTarget": "bí thuật",
+      "targetCandidates": [
+        "bí thuật"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神通",
+      "aliases": [],
+      "category": "technique",
+      "semanticSense": "divine ability",
+      "preferredTarget": "thần thông",
+      "targetCandidates": [
+        "thần thông"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "剑诀",
+      "aliases": [],
+      "category": "technique",
+      "semanticSense": "sword art",
+      "preferredTarget": "kiếm quyết",
+      "targetCandidates": [
+        "kiếm quyết"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "身法",
+      "aliases": [],
+      "category": "technique",
+      "semanticSense": "movement art",
+      "preferredTarget": "thân pháp",
+      "targetCandidates": [
+        "thân pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "禁术",
+      "aliases": [],
+      "category": "technique",
+      "semanticSense": "forbidden art",
+      "preferredTarget": "cấm thuật",
+      "targetCandidates": [
+        "cấm thuật"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "传承",
+      "aliases": [],
+      "category": "inheritance",
+      "semanticSense": "inheritance/legacy",
+      "preferredTarget": "truyền thừa",
+      "targetCandidates": [
+        "truyền thừa"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "阵法",
+      "aliases": [],
+      "category": "formation",
+      "semanticSense": "formation",
+      "preferredTarget": "trận pháp",
+      "targetCandidates": [
+        "trận pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "禁制",
+      "aliases": [],
+      "category": "formation",
+      "semanticSense": "restriction/seal",
+      "preferredTarget": "cấm chế",
+      "targetCandidates": [
+        "cấm chế"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "结界",
+      "aliases": [],
+      "category": "formation",
+      "semanticSense": "barrier",
+      "preferredTarget": "kết giới",
+      "targetCandidates": [
+        "kết giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "符箓",
+      "aliases": [],
+      "category": "talisman",
+      "semanticSense": "talisman",
+      "preferredTarget": "phù lục",
+      "targetCandidates": [
+        "phù lục"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "阵盘",
+      "aliases": [],
+      "category": "formation",
+      "semanticSense": "formation plate",
+      "preferredTarget": "trận bàn",
+      "targetCandidates": [
+        "trận bàn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "阵眼",
+      "aliases": [],
+      "category": "formation",
+      "semanticSense": "formation eye",
+      "preferredTarget": "trận nhãn",
+      "targetCandidates": [
+        "trận nhãn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "噬魂幡",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "soul-devouring banner",
+      "preferredTarget": "Phệ Hồn Phan",
+      "targetCandidates": [
+        "Phệ Hồn Phan",
+        "cờ phệ hồn",
+        "cờ nuốt hồn"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.97,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Semantic identity only unless separately named/locked."
+    },
+    {
+      "source": "令符",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "command talisman",
+      "preferredTarget": "lệnh phù",
+      "targetCandidates": [
+        "lệnh phù",
+        "phù lệnh"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.97,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Semantic identity only unless separately named/locked."
+    },
+    {
+      "source": "赤铜印",
+      "aliases": [],
+      "category": "artifact",
+      "semanticSense": "red-copper seal",
+      "preferredTarget": "ấn đồng đỏ",
+      "targetCandidates": [
+        "ấn đồng đỏ",
+        "Xích Đồng Ấn"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.97,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "Semantic identity only unless separately named/locked."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+0.00.668.677 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.669.327 W srv  llama_server: -----------------
+0.00.669.332 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.669.335 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.669.335 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.669.336 W srv  llama_server: -----------------
+0.00.673.068 I srv    load_model: loading model 'tencent/HY-MT1.5-1.8B-GGUF:Q4_K_M'
+0.01.565.717 W load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+0.02.973.354 I cmn          init: llama threadpool init, n_threads = 2
+0.03.540.919 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 3072, kv_unified = 'true'
+0.03.555.517 I srv  llama_server: model loaded
+0.03.555.527 I srv  llama_server: listening on http://127.0.0.1:18087
+0.05.081.712 I slot get_availabl: id  3 | task -1 | selected slot by LRU, t_last = -1
+0.05.081.887 I slot launch_slot_: id  3 | task 0 | processing task, is_child = 0
+0.16.291.349 I slot print_timing: id  3 | task 0 | prompt eval time =    9819.00 ms /   224 tokens (   43.83 ms per token,    22.81 tokens per second)
+0.16.291.362 I slot print_timing: id  3 | task 0 |        eval time =    1390.28 ms /    11 tokens (  139.03 ms per token,     7.19 tokens per second)
+0.16.291.366 I slot print_timing: id  3 | task 0 |       total time =   11209.28 ms /   235 tokens
+0.16.291.369 I slot print_timing: id  3 | task 0 |    graphs reused =         10
+0.16.291.492 I slot      release: id  3 | task 0 | stop processing: n_tokens = 234, truncated = 0

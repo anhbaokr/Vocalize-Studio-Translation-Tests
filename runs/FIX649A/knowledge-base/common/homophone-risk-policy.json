@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "packId": "generic-homophone-risk-policy-v1",
+  "description": "Generic pinyin-based source-risk detector. It never rewrites source text.",
+  "rules": {
+    "requirePinyinEquality": true,
+    "maxDifferentCharacters": 1,
+    "minTokenLength": 2,
+    "maxTokenLength": 4,
+    "nameContextBoost": true,
+    "sourceMutationAllowed": false,
+    "candidateIsAdvisoryOnly": true
+  }
+}

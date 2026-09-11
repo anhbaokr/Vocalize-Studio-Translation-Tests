@@ -1,0 +1,35 @@
+FIX6.4.9-A — MeaningFrame foundation
+
+Scope:
+- Internal semantic representation only.
+- No source mutation.
+- No second model / second-pass translation.
+- MeaningFrame is NOT sent wholesale to HY-MT.
+- Ordinary objects / SOFT terms remain free for semantic-equivalent Vietnamese rendering.
+
+Implemented:
+1. build_meaning_frame()
+   - subject / predicate / object
+   - negation / modality
+   - quantity / duration
+   - entity / domain / modifier / relation
+   - body_part / new_feature foundation
+   - source spans + confidence + authority + evidence
+2. meaning_frame_coverage_check()
+   - checks only HIGH-confidence STRONG evidence
+   - does not require Hán-Việt surface for SOFT semantic terms
+3. Conservative predicate surface resolution for verbs split by segmentation.
+4. Creature subject ownership uses maximal creature species/class before predicate.
+5. Single-character creature body heads require explicit creature evidence; prevents 桌角 from becoming creature body semantics.
+6. Generic lexical body-location recognition uses the 部 suffix near a creature feature; no corpus sentence mapping.
+
+Verification:
+- Python compile PASS
+- FIX648 static verifier PASS
+- FIX648 structural verifier 30/30 PASS
+- targeted MeaningFrame smoke tests PASS for:
+  巨蟒腹部已经长出几片蛟鳞
+  两刻钟后进入药阁
+  桌角下面压着一块宗门通行令牌
+
+Runtime 300-segment semantic regression was NOT claimed because the supplied artifact does not include a running llama-server/model environment.

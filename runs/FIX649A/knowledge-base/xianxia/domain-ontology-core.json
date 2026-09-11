@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-domain-ontology-core-fix648",
+  "description": "Generic formation/device/domain ontology. Semantic identity is strong; exact Vietnamese surface is not locked unless targetTextAuthority=true.",
+  "entries": [
+    {
+      "source": "阵基",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "formation base/foundation",
+      "preferredTarget": "trận cơ",
+      "targetCandidates": [
+        "trận cơ",
+        "nền trận",
+        "cơ sở trận pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_COMPONENT"
+    },
+    {
+      "source": "阵线",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "formation line/linkage",
+      "preferredTarget": "trận tuyến",
+      "targetCandidates": [
+        "trận tuyến",
+        "tuyến trận",
+        "đường trận",
+        "đường liên kết trận"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_COMPONENT; not alliance/frontline unless military evidence."
+    },
+    {
+      "source": "阵纹",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "formation inscription/pattern",
+      "preferredTarget": "trận văn",
+      "targetCandidates": [
+        "trận văn",
+        "hoa văn trận",
+        "đường vân trận",
+        "vân trận"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_COMPONENT"
+    },
+    {
+      "source": "阵石",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "formation stone",
+      "preferredTarget": "trận thạch",
+      "targetCandidates": [
+        "trận thạch",
+        "đá trận",
+        "đá dùng cho trận pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_COMPONENT"
+    },
+    {
+      "source": "阵眼",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "formation eye/key node",
+      "preferredTarget": "trận nhãn",
+      "targetCandidates": [
+        "trận nhãn",
+        "mắt trận",
+        "điểm then chốt của trận"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_COMPONENT"
+    },
+    {
+      "source": "阵心",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "formation core",
+      "preferredTarget": "trận tâm",
+      "targetCandidates": [
+        "trận tâm",
+        "lõi trận",
+        "tâm trận"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_COMPONENT"
+    },
+    {
+      "source": "阵角",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "formation corner/node",
+      "preferredTarget": "góc trận",
+      "targetCandidates": [
+        "góc trận",
+        "trận giác",
+        "góc của trận"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.96,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_COMPONENT"
+    },
+    {
+      "source": "阵盘",
+      "aliases": [],
+      "category": "formation_device",
+      "semanticSense": "formation plate/disc",
+      "preferredTarget": "trận bàn",
+      "targetCandidates": [
+        "trận bàn",
+        "bàn trận",
+        "đĩa trận"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_DEVICE"
+    },
+    {
+      "source": "传送台",
+      "aliases": [],
+      "category": "formation_device",
+      "semanticSense": "teleportation platform",
+      "preferredTarget": "đài truyền tống",
+      "targetCandidates": [
+        "đài truyền tống",
+        "truyền tống đài"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.99,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "DEVICE; never generic table/shelf."
+    },
+    {
+      "source": "传送阵",
+      "aliases": [],
+      "category": "formation",
+      "semanticSense": "teleportation formation",
+      "preferredTarget": "truyền tống trận",
+      "targetCandidates": [
+        "truyền tống trận",
+        "trận truyền tống"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.99,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION"
+    },
+    {
+      "source": "符印",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "talisman/seal mark used in a formation",
+      "preferredTarget": "phù ấn",
+      "targetCandidates": [
+        "phù ấn",
+        "ấn phù"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.94,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "FORMATION_COMPONENT"
+    },
+    {
+      "source": "阵图",
+      "aliases": [],
+      "category": "formation_device",
+      "semanticSense": "formation diagram",
+      "preferredTarget": "trận đồ",
+      "targetCandidates": [
+        "trận đồ",
+        "sơ đồ trận pháp",
+        "bản đồ trận pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.97,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FORMATION_DOCUMENT"
+    },
+    {
+      "source": "符纹",
+      "aliases": [],
+      "category": "formation_component",
+      "semanticSense": "talisman pattern",
+      "preferredTarget": "phù văn",
+      "targetCandidates": [
+        "phù văn",
+        "vân phù",
+        "hoa văn phù"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "丹纹",
+      "aliases": [],
+      "category": "alchemy_mark",
+      "semanticSense": "pill pattern",
+      "preferredTarget": "đan văn",
+      "targetCandidates": [
+        "đan văn",
+        "vân đan",
+        "hoa văn trên đan dược"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "血阵",
+      "aliases": [],
+      "category": "formation",
+      "semanticSense": "blood formation",
+      "preferredTarget": "huyết trận",
+      "targetCandidates": [
+        "huyết trận",
+        "trận máu"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "魂晶",
+      "aliases": [],
+      "category": "soul_material",
+      "semanticSense": "soul crystal",
+      "preferredTarget": "hồn tinh",
+      "targetCandidates": [
+        "hồn tinh",
+        "tinh thể hồn"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "傀儡",
+      "aliases": [],
+      "category": "construct",
+      "semanticSense": "puppet construct",
+      "preferredTarget": "khôi lỗi",
+      "targetCandidates": [
+        "khôi lỗi",
+        "con rối"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "爪印",
+      "aliases": [],
+      "category": "creature_trace",
+      "semanticSense": "claw print",
+      "preferredTarget": "dấu vuốt",
+      "targetCandidates": [
+        "dấu vuốt",
+        "dấu móng"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "兽爪印",
+      "aliases": [],
+      "category": "creature_trace",
+      "semanticSense": "beast claw print",
+      "preferredTarget": "dấu vuốt thú",
+      "targetCandidates": [
+        "dấu vuốt thú",
+        "dấu móng thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "口诀",
+      "aliases": [],
+      "category": "technique_formula",
+      "semanticSense": "mnemonic formula",
+      "preferredTarget": "khẩu quyết",
+      "targetCandidates": [
+        "khẩu quyết",
+        "câu khẩu quyết"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "剑谱",
+      "aliases": [],
+      "category": "technique_document",
+      "semanticSense": "sword manual",
+      "preferredTarget": "kiếm phổ",
+      "targetCandidates": [
+        "kiếm phổ",
+        "sách kiếm pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    },
+    {
+      "source": "君臣佐使",
+      "aliases": [],
+      "category": "alchemy_role_system",
+      "semanticSense": "traditional formula role system",
+      "preferredTarget": "Quân Thần Tá Sứ",
+      "targetCandidates": [
+        "Quân Thần Tá Sứ",
+        "quân-thần-tá-sứ",
+        "quân, thần, tá, sứ"
+      ],
+      "scope": "GENRE",
+      "hardness": "strong",
+      "confidence": 0.98,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": "FIX648 generic semantic coverage; no sentence mapping."
+    }
+  ]
+}

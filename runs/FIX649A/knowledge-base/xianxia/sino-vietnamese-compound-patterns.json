@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 7,
+  "packId": "xianxia-sino-vietnamese-compound-policy-fix646",
+  "description": "Generic multi-token composition with whole-span authority separation, classifier-safe boundaries, and semantic-head QA. No sentence-specific target map.",
+  "strongAnchors": {
+    "material": [
+      "铁",
+      "木",
+      "石",
+      "玉",
+      "晶"
+    ],
+    "cultivation": [
+      "真气",
+      "灵气",
+      "灵力",
+      "灵根",
+      "血脉",
+      "丹田"
+    ],
+    "artifact": [
+      "剑",
+      "刀",
+      "枪",
+      "戟",
+      "弓",
+      "鼎",
+      "炉",
+      "塔",
+      "印",
+      "珠",
+      "镜",
+      "钟",
+      "旗",
+      "器",
+      "法宝",
+      "法器",
+      "令",
+      "钉"
+    ],
+    "formation_talisman": [
+      "阵",
+      "符",
+      "阵法",
+      "符箓"
+    ],
+    "technique_text": [
+      "诀",
+      "经",
+      "典",
+      "术",
+      "功",
+      "法",
+      "功法",
+      "图"
+    ],
+    "realm_world": [
+      "境",
+      "界",
+      "域",
+      "秘境"
+    ],
+    "faction_place": [
+      "宗",
+      "派",
+      "宫",
+      "殿",
+      "阁",
+      "峰",
+      "宗门",
+      "堂",
+      "谷",
+      "坛",
+      "洞"
+    ],
+    "formation_component": [
+      "纹",
+      "角",
+      "盘",
+      "基",
+      "桩",
+      "线",
+      "眼"
+    ]
+  },
+  "boundaryTokens": [
+    "我",
+    "我们",
+    "我等",
+    "你",
+    "你们",
+    "他",
+    "她",
+    "它",
+    "自己",
+    "不",
+    "没",
+    "不能",
+    "未",
+    "无",
+    "非",
+    "要",
+    "需要",
+    "必须",
+    "应该",
+    "可以",
+    "能",
+    "只管",
+    "也",
+    "又",
+    "还",
+    "却",
+    "但",
+    "而",
+    "因为",
+    "所以",
+    "若",
+    "如果",
+    "的",
+    "地",
+    "得",
+    "之",
+    "把",
+    "被",
+    "给",
+    "向",
+    "对",
+    "于",
+    "以",
+    "为",
+    "从",
+    "在",
+    "与",
+    "和",
+    "是",
+    "有",
+    "出现",
+    "打开",
+    "关闭",
+    "帮助",
+    "看着",
+    "出事",
+    "牺牲",
+    "交给",
+    "使用",
+    "拥有",
+    "这",
+    "那",
+    "此",
+    "这些",
+    "那些",
+    "大量",
+    "少量"
+  ],
+  "maxCompoundChars": 8,
+  "minCompoundChars": 2,
+  "authority": "SOFT",
+  "ordinaryProseOverride": true,
+  "sourceMutation": false,
+  "classifierBoundaryTokens": [
+    "个",
+    "位",
+    "名",
+    "只",
+    "件",
+    "本",
+    "张",
+    "把",
+    "柄",
+    "枚",
+    "颗",
+    "块",
+    "座",
+    "道",
+    "扇",
+    "条",
+    "头",
+    "尊",
+    "艘",
+    "匹",
+    "层",
+    "门",
+    "根",
+    "柱",
+    "瓶",
+    "卷",
+    "面",
+    "方"
+  ],
+  "semanticAnchorTargets": {
+    "阵": [
+      "trận",
+      "trận pháp"
+    ],
+    "阵法": [
+      "trận",
+      "trận pháp"
+    ],
+    "符": [
+      "phù",
+      "phù lục"
+    ],
+    "符箓": [
+      "phù",
+      "phù lục"
+    ],
+    "印": [
+      "ấn"
+    ],
+    "剑": [
+      "kiếm",
+      "gươm"
+    ],
+    "刀": [
+      "đao",
+      "dao"
+    ],
+    "鼎": [
+      "đỉnh"
+    ],
+    "炉": [
+      "lô",
+      "lò"
+    ],
+    "塔": [
+      "tháp"
+    ],
+    "珠": [
+      "châu",
+      "ngọc"
+    ],
+    "镜": [
+      "kính",
+      "gương"
+    ],
+    "钟": [
+      "chung",
+      "chuông"
+    ],
+    "旗": [
+      "kỳ",
+      "cờ"
+    ],
+    "铁": [
+      "thiết",
+      "sắt",
+      "thép"
+    ],
+    "木": [
+      "mộc",
+      "gỗ"
+    ],
+    "石": [
+      "thạch",
+      "đá"
+    ],
+    "玉": [
+      "ngọc"
+    ],
+    "晶": [
+      "tinh",
+      "tinh thạch"
+    ],
+    "真气": [
+      "chân khí"
+    ],
+    "灵气": [
+      "linh khí"
+    ],
+    "灵力": [
+      "linh lực"
+    ],
+    "灵根": [
+      "linh căn"
+    ],
+    "血脉": [
+      "huyết mạch"
+    ],
+    "丹田": [
+      "đan điền"
+    ],
+    "诀": [
+      "quyết"
+    ],
+    "经": [
+      "kinh"
+    ],
+    "术": [
+      "thuật"
+    ],
+    "功": [
+      "công"
+    ],
+    "法": [
+      "pháp"
+    ],
+    "境": [
+      "cảnh"
+    ],
+    "界": [
+      "giới"
+    ],
+    "域": [
+      "vực"
+    ],
+    "宗": [
+      "tông"
+    ],
+    "派": [
+      "phái"
+    ],
+    "宫": [
+      "cung"
+    ],
+    "殿": [
+      "điện"
+    ],
+    "阁": [
+      "các"
+    ],
+    "峰": [
+      "phong"
+    ],
+    "宗门": [
+      "tông môn"
+    ],
+    "堂": [
+      "đường"
+    ],
+    "谷": [
+      "cốc"
+    ],
+    "坛": [
+      "đàn"
+    ],
+    "洞": [
+      "động"
+    ],
+    "纹": [
+      "văn",
+      "trận văn"
+    ],
+    "角": [
+      "góc trận",
+      "trận giác"
+    ],
+    "盘": [
+      "bàn",
+      "trận bàn"
+    ],
+    "基": [
+      "trận cơ",
+      "cơ"
+    ],
+    "令": [
+      "lệnh",
+      "lệnh bài",
+      "lệnh phù"
+    ],
+    "桩": [
+      "trang",
+      "cọc",
+      "trụ"
+    ],
+    "线": [
+      "tuyến",
+      "trận tuyến",
+      "đường trận"
+    ],
+    "钉": [
+      "đinh",
+      "cọc",
+      "chốt"
+    ],
+    "图": [
+      "đồ",
+      "sơ đồ",
+      "bản đồ"
+    ],
+    "眼": [
+      "nhãn",
+      "mắt trận",
+      "điểm"
+    ]
+  },
+  "criticalSemanticAnchors": [
+    "阵",
+    "阵法",
+    "符",
+    "符箓",
+    "印"
+  ],
+  "strongCompoundMinChars": 3,
+  "strongCompoundClasses": [
+    "material",
+    "cultivation",
+    "artifact",
+    "formation_talisman",
+    "technique_text",
+    "realm_world",
+    "faction_place",
+    "formation_component"
+  ],
+  "preferMaximalSpans": true,
+  "twoCharOrdinaryDefault": "SOFT",
+  "enumerationTokens": [
+    "金",
+    "木",
+    "水",
+    "火",
+    "土"
+  ],
+  "enumerationMinRun": 3,
+  "anchorRoleGuards": [
+    {
+      "anchor": "派",
+      "suppressWhenRightAny": [
+        "人",
+        "弟子",
+        "长老",
+        "使者",
+        "修士"
+      ],
+      "reason": "派 can be the verb 'dispatch/send'; do not force a faction suffix when followed by a human object."
+    }
+  ],
+  "strongTwoCharAnchorClasses": [
+    "formation_talisman",
+    "formation_component",
+    "technique_text",
+    "realm_world"
+  ],
+  "strongTwoCharModifierCategories": [
+    "illusion_domain",
+    "seal_domain",
+    "cultivation",
+    "cosmology",
+    "classical_modifier",
+    "technique_modifier",
+    "race_domain",
+    "element",
+    "element_modifier"
+  ],
+  "semanticComponentTargets": {
+    "玄": [
+      "huyền",
+      "đen",
+      "thâm"
+    ],
+    "青": [
+      "thanh",
+      "xanh",
+      "lục"
+    ],
+    "雷": [
+      "lôi",
+      "sấm",
+      "sét"
+    ],
+    "金": [
+      "kim",
+      "vàng",
+      "kim loại"
+    ],
+    "镇": [
+      "trấn",
+      "trấn áp",
+      "trấn giữ"
+    ],
+    "魂": [
+      "hồn",
+      "linh hồn"
+    ],
+    "灵": [
+      "linh",
+      "linh lực",
+      "linh khí"
+    ],
+    "赤": [
+      "xích",
+      "đỏ"
+    ],
+    "白": [
+      "bạch",
+      "trắng"
+    ],
+    "黑": [
+      "hắc",
+      "đen"
+    ],
+    "紫": [
+      "tử",
+      "tím"
+    ],
+    "冰": [
+      "băng",
+      "lạnh",
+      "băng giá"
+    ],
+    "火": [
+      "hỏa",
+      "lửa"
+    ],
+    "水": [
+      "thủy",
+      "nước"
+    ],
+    "木": [
+      "mộc",
+      "gỗ"
+    ],
+    "石": [
+      "thạch",
+      "đá"
+    ],
+    "风": [
+      "phong",
+      "gió"
+    ],
+    "血": [
+      "huyết",
+      "máu"
+    ]
+  },
+  "criticalModifierCategories": [
+    "element",
+    "element_modifier",
+    "domain_modifier",
+    "seal_domain",
+    "cultivation",
+    "classical_modifier"
+  ]
+}

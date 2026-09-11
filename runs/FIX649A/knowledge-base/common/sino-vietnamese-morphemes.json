@@ -1,0 +1,1863 @@
+{
+  "schemaVersion": 3,
+  "packId": "common-sino-vietnamese-morphemes-fix648",
+  "description": "Generic component-level Sino-Vietnamese readings. FIX645 extends reusable domain/name/artifact/technique components; no benchmark sentence mappings. FIX6.4.6 adds generic high-confidence morphemes needed for whole named-span composition; no sentence mappings. FIX6.4.7 expands generic creature/ecology morphemes; no sentence or test-answer mappings.",
+  "entries": [
+    {
+      "source": "一",
+      "reading": "Nhất",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "二",
+      "reading": "Nhị",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "三",
+      "reading": "Tam",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "四",
+      "reading": "Tứ",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "五",
+      "reading": "Ngũ",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "六",
+      "reading": "Lục",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "七",
+      "reading": "Thất",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "八",
+      "reading": "Bát",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "九",
+      "reading": "Cửu",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "十",
+      "reading": "Thập",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "百",
+      "reading": "Bách",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "千",
+      "reading": "Thiên",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "万",
+      "reading": "Vạn",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "亿",
+      "reading": "Ức",
+      "category": "number",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "玄",
+      "reading": "Huyền",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "冰",
+      "reading": "Băng",
+      "category": "element",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "铁",
+      "reading": "Thiết",
+      "category": "material",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "木",
+      "reading": "Mộc",
+      "category": "element_material",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "火",
+      "reading": "Hỏa",
+      "category": "element",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "水",
+      "reading": "Thủy",
+      "category": "element",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "金",
+      "reading": "Kim",
+      "category": "element_material",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "土",
+      "reading": "Thổ",
+      "category": "element",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "风",
+      "reading": "Phong",
+      "category": "element",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "雷",
+      "reading": "Lôi",
+      "category": "element",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "电",
+      "reading": "Điện",
+      "category": "element",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "阴",
+      "reading": "Âm",
+      "category": "cosmology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "阳",
+      "reading": "Dương",
+      "category": "cosmology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "天",
+      "reading": "Thiên",
+      "category": "cosmology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "地",
+      "reading": "Địa",
+      "category": "cosmology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "人",
+      "reading": "Nhân",
+      "category": "cosmology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "神",
+      "reading": "Thần",
+      "category": "race_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "魔",
+      "reading": "Ma",
+      "category": "race_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "仙",
+      "reading": "Tiên",
+      "category": "race_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "妖",
+      "reading": "Yêu",
+      "category": "race_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "鬼",
+      "reading": "Quỷ",
+      "category": "race_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "灵",
+      "reading": "Linh",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "真",
+      "reading": "Chân",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "圣",
+      "reading": "Thánh",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "帝",
+      "reading": "Đế",
+      "category": "title",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "皇",
+      "reading": "Hoàng",
+      "category": "title",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "王",
+      "reading": "Vương",
+      "category": "title",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "尊",
+      "reading": "Tôn",
+      "category": "title",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "祖",
+      "reading": "Tổ",
+      "category": "title",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "古",
+      "reading": "Cổ",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "太",
+      "reading": "Thái",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "上",
+      "reading": "Thượng",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "下",
+      "reading": "Hạ",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "大",
+      "reading": "Đại",
+      "category": "modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "小",
+      "reading": "Tiểu",
+      "category": "modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "赤",
+      "reading": "Xích",
+      "category": "color",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "青",
+      "reading": "Thanh",
+      "category": "color",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "白",
+      "reading": "Bạch",
+      "category": "color",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "黑",
+      "reading": "Hắc",
+      "category": "color",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "紫",
+      "reading": "Tử",
+      "category": "color",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "黄",
+      "reading": "Hoàng",
+      "category": "color",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "苍",
+      "reading": "Thương",
+      "category": "color",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "气",
+      "reading": "Khí",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "魂",
+      "reading": "Hồn",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "魄",
+      "reading": "Phách",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "心",
+      "reading": "Tâm",
+      "category": "body_mind",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "血",
+      "reading": "Huyết",
+      "category": "body",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "骨",
+      "reading": "Cốt",
+      "category": "body",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "脉",
+      "reading": "Mạch",
+      "category": "body",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "根",
+      "reading": "Căn",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "丹",
+      "reading": "Đan",
+      "category": "alchemy",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "田",
+      "reading": "Điền",
+      "category": "classical_noun",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "德",
+      "reading": "Đức",
+      "category": "abstract",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "道",
+      "reading": "Đạo",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "劫",
+      "reading": "Kiếp",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "境",
+      "reading": "Cảnh",
+      "category": "realm",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "界",
+      "reading": "Giới",
+      "category": "world",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "域",
+      "reading": "Vực",
+      "category": "world",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "剑",
+      "reading": "Kiếm",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "刀",
+      "reading": "Đao",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "枪",
+      "reading": "Thương",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "戟",
+      "reading": "Kích",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "弓",
+      "reading": "Cung",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "鼎",
+      "reading": "Đỉnh",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "炉",
+      "reading": "Lô",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "塔",
+      "reading": "Tháp",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "印",
+      "reading": "Ấn",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "珠",
+      "reading": "Châu",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "镜",
+      "reading": "Kính",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "钟",
+      "reading": "Chung",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "旗",
+      "reading": "Kỳ",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "阵",
+      "reading": "Trận",
+      "category": "formation_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "符",
+      "reading": "Phù",
+      "category": "talisman_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "器",
+      "reading": "Khí",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "宝",
+      "reading": "Bảo",
+      "category": "artifact",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "诀",
+      "reading": "Quyết",
+      "category": "technique_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "经",
+      "reading": "Kinh",
+      "category": "text_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "典",
+      "reading": "Điển",
+      "category": "text_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "术",
+      "reading": "Thuật",
+      "category": "technique_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "功",
+      "reading": "Công",
+      "category": "technique_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "法",
+      "reading": "Pháp",
+      "category": "technique_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "宗",
+      "reading": "Tông",
+      "category": "faction_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "派",
+      "reading": "Phái",
+      "category": "faction_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "宫",
+      "reading": "Cung",
+      "category": "place_faction_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "殿",
+      "reading": "Điện",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "阁",
+      "reading": "Các",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "峰",
+      "reading": "Phong",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "山",
+      "reading": "Sơn",
+      "category": "place",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "海",
+      "reading": "Hải",
+      "category": "place",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "城",
+      "reading": "Thành",
+      "category": "place",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "门",
+      "reading": "Môn",
+      "category": "ambiguous_place_faction",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "石",
+      "reading": "Thạch",
+      "category": "material_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "玉",
+      "reading": "Ngọc",
+      "category": "material_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "晶",
+      "reading": "Tinh",
+      "category": "material_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "矿",
+      "reading": "Khoáng",
+      "category": "material",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "药",
+      "reading": "Dược",
+      "category": "alchemy",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "草",
+      "reading": "Thảo",
+      "category": "alchemy",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "真气",
+      "reading": "Chân Khí",
+      "category": "cultivation_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "灵气",
+      "reading": "Linh Khí",
+      "category": "cultivation_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "灵力",
+      "reading": "Linh Lực",
+      "category": "cultivation_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "灵根",
+      "reading": "Linh Căn",
+      "category": "cultivation_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "血脉",
+      "reading": "Huyết Mạch",
+      "category": "cultivation_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "丹田",
+      "reading": "Đan Điền",
+      "category": "cultivation_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "法宝",
+      "reading": "Pháp Bảo",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "法器",
+      "reading": "Pháp Khí",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "功法",
+      "reading": "Công Pháp",
+      "category": "technique_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "阵法",
+      "reading": "Trận Pháp",
+      "category": "formation_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "符箓",
+      "reading": "Phù Lục",
+      "category": "talisman_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "宗门",
+      "reading": "Tông Môn",
+      "category": "faction_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "秘境",
+      "reading": "Bí Cảnh",
+      "category": "realm_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "炎",
+      "reading": "Viêm",
+      "category": "element_fire",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "护",
+      "reading": "Hộ",
+      "category": "domain_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "幻",
+      "reading": "Huyễn",
+      "category": "illusion_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "锁",
+      "reading": "Tỏa",
+      "category": "seal_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "纹",
+      "reading": "Văn",
+      "category": "formation_component",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "泉",
+      "reading": "Tuyền",
+      "category": "cultivation_place",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "堂",
+      "reading": "Đường",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "谷",
+      "reading": "Cốc",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "坛",
+      "reading": "Đàn",
+      "category": "ritual_place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "洞",
+      "reading": "Động",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "角",
+      "reading": "Giác",
+      "category": "formation_component",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "盘",
+      "reading": "Bàn",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "基",
+      "reading": "Cơ",
+      "category": "formation_component",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "冥",
+      "reading": "Minh",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "霄",
+      "reading": "Tiêu",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "曜",
+      "reading": "Diệu",
+      "category": "astral_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "寒",
+      "reading": "Hàn",
+      "category": "element_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "镇",
+      "reading": "Trấn",
+      "category": "seal_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "灭",
+      "reading": "Diệt",
+      "category": "technique_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "封",
+      "reading": "Phong",
+      "category": "seal_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "禁",
+      "reading": "Cấm",
+      "category": "restriction_domain",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "铜",
+      "reading": "Đồng",
+      "category": "material_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "令",
+      "reading": "Lệnh",
+      "category": "artifact_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "霜",
+      "reading": "Sương",
+      "category": "element_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "线",
+      "reading": "Tuyến",
+      "category": "formation_component",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "桩",
+      "reading": "Trang",
+      "category": "formation_component",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "识",
+      "reading": "Thức",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "神识",
+      "reading": "Thần Thức",
+      "category": "cultivation",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "照",
+      "reading": "Chiếu",
+      "category": "domain_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "归",
+      "reading": "Quy",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "元",
+      "reading": "Nguyên",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "补",
+      "reading": "Bổ",
+      "category": "technique_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "星",
+      "reading": "Tinh",
+      "category": "astral_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "位",
+      "reading": "Vị",
+      "category": "classical_noun",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "图",
+      "reading": "Đồ",
+      "category": "text_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "传",
+      "reading": "Truyền",
+      "category": "domain_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "送",
+      "reading": "Tống",
+      "category": "domain_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "台",
+      "reading": "Đài",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "楼",
+      "reading": "Lâu",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "眼",
+      "reading": "Nhãn",
+      "category": "formation_component",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "钉",
+      "reading": "Đinh",
+      "category": "artifact_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "纸",
+      "reading": "Chỉ",
+      "category": "material_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "逆",
+      "reading": "Nghịch",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "流",
+      "reading": "Lưu",
+      "category": "classical_noun",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "圆",
+      "reading": "Viên",
+      "category": "shape_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "异",
+      "reading": "Dị",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "亭",
+      "reading": "Đình",
+      "category": "place_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "定",
+      "reading": "Định",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "安",
+      "reading": "An",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "焰",
+      "reading": "Diễm",
+      "category": "element_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "岳",
+      "reading": "Nhạc",
+      "category": "place_nature",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "柱",
+      "reading": "Trụ",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "破",
+      "reading": "Phá",
+      "category": "technique_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "浪",
+      "reading": "Lãng",
+      "category": "nature",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "牌",
+      "reading": "Bài",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "片",
+      "reading": "Phiến",
+      "category": "object_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "瓷",
+      "reading": "Từ",
+      "category": "material_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "瓶",
+      "reading": "Bình",
+      "category": "object_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "格",
+      "reading": "Cách",
+      "category": "object_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "刻",
+      "reading": "Khắc",
+      "category": "classical_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "字",
+      "reading": "Tự",
+      "category": "metalinguistic",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "盒",
+      "reading": "Hạp",
+      "category": "object_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "碗",
+      "reading": "Oản",
+      "category": "object_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "篮",
+      "reading": "Lam",
+      "category": "object_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "棍",
+      "reading": "Côn",
+      "category": "object_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "灯",
+      "reading": "Đăng",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "行",
+      "reading": "Hành",
+      "category": "element",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "兽",
+      "reading": "Thú",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "狼",
+      "reading": "Lang",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "狐",
+      "reading": "Hồ",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "虎",
+      "reading": "Hổ",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "鹰",
+      "reading": "Ưng",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "蟒",
+      "reading": "Mãng",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "蛟",
+      "reading": "Giao",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "龙",
+      "reading": "Long",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "鹤",
+      "reading": "Hạc",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "鸾",
+      "reading": "Loan",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "凤",
+      "reading": "Phượng",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "龟",
+      "reading": "Quy",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "犀",
+      "reading": "Tê",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "蛛",
+      "reading": "Chu",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "蚕",
+      "reading": "Tằm",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "蟾",
+      "reading": "Thiềm",
+      "category": "creature_head",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "麟",
+      "reading": "Lân",
+      "category": "creature_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "踏",
+      "reading": "Đạp",
+      "category": "technique_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "雪",
+      "reading": "Tuyết",
+      "category": "nature",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "尾",
+      "reading": "Vĩ",
+      "category": "morphology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "翼",
+      "reading": "Dực",
+      "category": "morphology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "鳞",
+      "reading": "Lân",
+      "category": "morphology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "羽",
+      "reading": "Vũ",
+      "category": "morphology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "甲",
+      "reading": "Giáp",
+      "category": "morphology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "背",
+      "reading": "Bối",
+      "category": "morphology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "引",
+      "reading": "Dẫn",
+      "category": "technique_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "落",
+      "reading": "Lạc",
+      "category": "action_modifier",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "斩",
+      "reading": "Trảm",
+      "category": "technique_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "爪",
+      "reading": "Trảo",
+      "category": "morphology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "毛",
+      "reading": "Mao",
+      "category": "morphology",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "叶",
+      "reading": "Diệp",
+      "category": "plant",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "参",
+      "reading": "Sâm",
+      "category": "alchemy_ingredient",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "果",
+      "reading": "Quả",
+      "category": "plant",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "莲",
+      "reading": "Liên",
+      "category": "plant",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "君",
+      "reading": "Quân",
+      "category": "role",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "臣",
+      "reading": "Thần",
+      "category": "role",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "佐",
+      "reading": "Tá",
+      "category": "role",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "使",
+      "reading": "Sứ",
+      "category": "role",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "幡",
+      "reading": "Phan",
+      "category": "artifact_anchor",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "傀",
+      "reading": "Khôi",
+      "category": "construct",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    },
+    {
+      "source": "儡",
+      "reading": "Lỗi",
+      "category": "construct",
+      "scope": "COMMON",
+      "hardness": "soft",
+      "targetTextAuthority": false
+    }
+  ]
+}

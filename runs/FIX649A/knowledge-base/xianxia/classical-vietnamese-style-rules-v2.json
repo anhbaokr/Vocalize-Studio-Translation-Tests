@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-classical-vietnamese-style-v2",
+  "description": "Register/style QA for natural Vietnamese xianxia. Soft unless backed by verified project/series memory.",
+  "rules": [
+    "Tên công pháp, pháp bảo, vật liệu tu luyện, cảnh giới và thuật ngữ tu tiên có cấu trúc Hán-Việt rõ thì ưu tiên cách đọc Hán-Việt ổn định.",
+    "Đồ vật đời thường vẫn ưu tiên tiếng Việt tự nhiên; không biến mọi chữ Hán thành âm Hán-Việt.",
+    "Danh xưng cổ trang phải giữ vai vế nếu nguồn đã rõ.",
+    "Không thêm giải thích hoặc mở rộng ý ngoài source.",
+    "Không sửa source chỉ vì một cách đọc Hán-Việt có vẻ hợp lý.",
+    "Compound candidate chỉ là soft evidence; model vẫn phải dịch toàn câu theo ngữ cảnh.",
+    "Nếu một named xianxia compound bị dịch thành từ đời thường làm mất register, QA cảnh báo thay vì tự replace."
+  ],
+  "modernLiteralWarnings": {
+    "铁": [
+      "sắt",
+      "thép"
+    ],
+    "木": [
+      "gỗ"
+    ],
+    "火": [
+      "lửa"
+    ],
+    "水": [
+      "nước"
+    ],
+    "石": [
+      "đá"
+    ]
+  },
+  "unsupportedTargetAdditions": [
+    {
+      "target": "bảo vật",
+      "requiresSourceAny": [
+        "宝",
+        "宝物",
+        "法宝",
+        "珍宝"
+      ],
+      "severity": "WARNING",
+      "reason": "Do not infer treasure/artifact status when the current source does not state it."
+    }
+  ]
+}

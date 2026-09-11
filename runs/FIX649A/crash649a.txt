@@ -1,0 +1,56 @@
+[INFO] llama-server: C:\Users\1stPK-MU\AppData\Local\Microsoft\WinGet\Packages\ggml.llamacpp_Microsoft.Winget.Source_8wekyb3d8bbwe\llama-server.exe
+[INFO] model: tencent/HY-MT1.5-1.8B-GGUF:Q4_K_M
+[INFO] xianxia terms: 243
+[INFO] chinese surnames: 323
+[INFO] pypinyin homophone check: OFF
+[INFO] grammar segmentation: ON
+[INFO] sino-vietnamese morphemes: 232
+[INFO] sino-vietnamese compound resolver: ON
+[INFO] classical Vietnamese style QA: ON
+[INFO] contextual sense rules: 7
+[INFO] compound classifier-boundary gate: ON
+[INFO] semantic-head completeness QA: ON
+[INFO] exact-surname rendering QA: ON
+[INFO] multi-token composition graph: ON
+[INFO] strong 3+char + evidence-based 2-char domain preservation: ON
+[INFO] compact stable guidance: ON
+[INFO] nominal-ellipsis semantic guard: ON
+[INFO] structural semantic frames: ON
+[INFO] evidence-based sense authority escalation: ON
+[INFO] semantic-set preservation: ON
+[INFO] WHOLE-SPAN before word-by-word resolver: ON
+[INFO] head-first noun-phrase semantic composer: ON
+[INFO] creature/ecology semantic composer: ON
+[INFO] semantic plan compression: ON (max 3 anchors)
+[INFO] semantic span ownership: named > quantity > creature > noun phrase > compound
+[INFO] named-parent dominance over contained ordinary/domain spans: ON
+[INFO] semanticAuthority / targetTextAuthority split: ON
+[INFO] quantity / duration meaning frames: ON
+[INFO] scoped polarity + A-not-A question resolver: ON
+[INFO] contextual classifier boundary: ON
+[INFO] strong compound semantic-component QA: ON
+[INFO] source-bound hallucinated-entity guard: ON
+[INFO] hallucinated-entity guard: ON
+[INFO] per-run entity registry: ON (EPHEMERAL ONLY; no persistence)
+[INFO] current-source sovereignty: ON (raw PREV/NEXT not sent to model)
+[INFO] output purity / single-line guard: ON
+[INFO] negation preservation guard: ON
+[INFO] second-pass repair: OFF
+[INFO] protected render slots: OFF
+[INFO] prev/current/next contextual evidence: RULE-RESOLVER ONLY
+[INFO] literal next-sentence prediction: OFF
+[INFO] next semantic expectation: ON
+[INFO] source mutation: OFF
+[INFO] seed=42
+[WAIT] model server 2s...
+[PASS] Server sẵn sàng.
+Traceback (most recent call last):
+  File "E:\HYMT15-Test\Vocalize-Studio-Translation-Tests\runs\FIX649A\hymt15_test_XIANXIA_WEAK300.py", line 3409, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "E:\HYMT15-Test\Vocalize-Studio-Translation-Tests\runs\FIX649A\hymt15_test_XIANXIA_WEAK300.py", line 3055, in main
+    print(f"[{row_id:03d}/300] {source}", flush=True)
+  File "C:\Users\1stPK-MU\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 10-23: character maps to <undefined>

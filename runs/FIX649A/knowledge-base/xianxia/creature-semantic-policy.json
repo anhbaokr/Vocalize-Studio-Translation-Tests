@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-creature-semantic-composer-fix648",
+  "description": "Head-first creature/ecology resolver with body-part and trace semantics. Preserves species/class/morphology without forcing exact Hán-Việt surface forms.",
+  "maxLeftModifierChars": 6,
+  "classEntries": [
+    {
+      "source": "灵兽",
+      "targetCandidates": [
+        "linh thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "妖兽",
+      "targetCandidates": [
+        "yêu thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "凶兽",
+      "targetCandidates": [
+        "hung thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "异兽",
+      "targetCandidates": [
+        "dị thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "神兽",
+      "targetCandidates": [
+        "thần thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "圣兽",
+      "targetCandidates": [
+        "thánh thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "魔兽",
+      "targetCandidates": [
+        "ma thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "妖禽",
+      "targetCandidates": [
+        "yêu cầm"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "灵禽",
+      "targetCandidates": [
+        "linh cầm"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "妖虫",
+      "targetCandidates": [
+        "yêu trùng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "灵虫",
+      "targetCandidates": [
+        "linh trùng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "灵宠",
+      "targetCandidates": [
+        "linh sủng",
+        "thú cưng linh"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "坐骑",
+      "targetCandidates": [
+        "tọa kỵ",
+        "thú cưỡi"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "兽王",
+      "targetCandidates": [
+        "thú vương"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "兽潮",
+      "targetCandidates": [
+        "thú triều"
+      ],
+      "authority": "STRONG"
+    }
+  ],
+  "speciesHeads": [
+    {
+      "source": "狼",
+      "targetCandidates": [
+        "sói"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "狐",
+      "targetCandidates": [
+        "cáo",
+        "hồ ly"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "虎",
+      "targetCandidates": [
+        "hổ"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "豹",
+      "targetCandidates": [
+        "báo"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "熊",
+      "targetCandidates": [
+        "gấu"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "蛇",
+      "targetCandidates": [
+        "rắn"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "蟒",
+      "targetCandidates": [
+        "mãng xà",
+        "trăn"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "蛟",
+      "targetCandidates": [
+        "giao"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "龙",
+      "targetCandidates": [
+        "rồng",
+        "long"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "鹰",
+      "targetCandidates": [
+        "ưng",
+        "đại bàng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "雕",
+      "targetCandidates": [
+        "đại bàng",
+        "điêu"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "鹤",
+      "targetCandidates": [
+        "hạc"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "鸾",
+      "targetCandidates": [
+        "loan"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "凤",
+      "targetCandidates": [
+        "phượng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "龟",
+      "targetCandidates": [
+        "rùa",
+        "quy"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "猿",
+      "targetCandidates": [
+        "vượn",
+        "viên"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "鹿",
+      "targetCandidates": [
+        "hươu"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "犀",
+      "targetCandidates": [
+        "tê giác"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "马",
+      "targetCandidates": [
+        "ngựa"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "兔",
+      "targetCandidates": [
+        "thỏ"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "鼠",
+      "targetCandidates": [
+        "chuột"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "鱼",
+      "targetCandidates": [
+        "cá"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "鲤",
+      "targetCandidates": [
+        "cá chép"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "蛛",
+      "targetCandidates": [
+        "nhện"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "蚕",
+      "targetCandidates": [
+        "tằm"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "蝎",
+      "targetCandidates": [
+        "bọ cạp"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "蜥",
+      "targetCandidates": [
+        "thằn lằn"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "蟾",
+      "targetCandidates": [
+        "cóc",
+        "thiềm thừ"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "兽",
+      "targetCandidates": [
+        "thú"
+      ],
+      "authority": "SOFT"
+    }
+  ],
+  "modifierEntries": [
+    {
+      "source": "幼年",
+      "role": "AGE",
+      "targetCandidates": [
+        "non",
+        "còn nhỏ",
+        "ấu niên"
+      ]
+    },
+    {
+      "source": "幼",
+      "role": "AGE",
+      "targetCandidates": [
+        "non",
+        "ấu"
+      ]
+    },
+    {
+      "source": "普通",
+      "role": "ORDINARY",
+      "targetCandidates": [
+        "bình thường",
+        "thông thường"
+      ]
+    },
+    {
+      "source": "野生",
+      "role": "STATE",
+      "targetCandidates": [
+        "hoang dã",
+        "hoang dại"
+      ]
+    },
+    {
+      "source": "赤",
+      "role": "COLOR",
+      "targetCandidates": [
+        "đỏ",
+        "xích"
+      ]
+    },
+    {
+      "source": "青",
+      "role": "COLOR",
+      "targetCandidates": [
+        "xanh",
+        "thanh"
+      ]
+    },
+    {
+      "source": "白",
+      "role": "COLOR",
+      "targetCandidates": [
+        "trắng",
+        "bạch"
+      ]
+    },
+    {
+      "source": "黑",
+      "role": "COLOR",
+      "targetCandidates": [
+        "đen",
+        "hắc"
+      ]
+    },
+    {
+      "source": "银",
+      "role": "COLOR_MATERIAL",
+      "targetCandidates": [
+        "bạc",
+        "ngân"
+      ]
+    },
+    {
+      "source": "金",
+      "role": "COLOR_MATERIAL",
+      "targetCandidates": [
+        "vàng",
+        "kim"
+      ]
+    },
+    {
+      "source": "紫",
+      "role": "COLOR",
+      "targetCandidates": [
+        "tím",
+        "tử"
+      ]
+    },
+    {
+      "source": "灰",
+      "role": "COLOR",
+      "targetCandidates": [
+        "xám"
+      ]
+    },
+    {
+      "source": "火",
+      "role": "ELEMENT",
+      "targetCandidates": [
+        "lửa",
+        "hỏa"
+      ]
+    },
+    {
+      "source": "雷",
+      "role": "ELEMENT",
+      "targetCandidates": [
+        "sét",
+        "lôi"
+      ]
+    },
+    {
+      "source": "冰",
+      "role": "ELEMENT",
+      "targetCandidates": [
+        "băng"
+      ]
+    },
+    {
+      "source": "霜",
+      "role": "ELEMENT",
+      "targetCandidates": [
+        "sương",
+        "sương giá"
+      ]
+    },
+    {
+      "source": "风",
+      "role": "ELEMENT",
+      "targetCandidates": [
+        "gió",
+        "phong"
+      ]
+    },
+    {
+      "source": "毒",
+      "role": "ATTRIBUTE",
+      "targetCandidates": [
+        "độc"
+      ]
+    },
+    {
+      "source": "血",
+      "role": "ATTRIBUTE",
+      "targetCandidates": [
+        "máu",
+        "huyết"
+      ]
+    },
+    {
+      "source": "铁",
+      "role": "ATTRIBUTE",
+      "targetCandidates": [
+        "sắt",
+        "thiết"
+      ]
+    },
+    {
+      "source": "赤焰",
+      "role": "ELEMENT_COLOR",
+      "targetCandidates": [
+        "hỏa diễm đỏ",
+        "xích diễm"
+      ]
+    },
+    {
+      "source": "银月",
+      "role": "ATTRIBUTE",
+      "targetCandidates": [
+        "trăng bạc",
+        "ngân nguyệt"
+      ]
+    },
+    {
+      "source": "黑鳞",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "vảy đen",
+        "hắc lân"
+      ]
+    },
+    {
+      "source": "赤羽",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "lông đỏ",
+        "xích vũ"
+      ]
+    },
+    {
+      "source": "金纹",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "vân vàng",
+        "kim văn"
+      ]
+    },
+    {
+      "source": "三眼",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "ba mắt",
+        "tam nhãn"
+      ]
+    },
+    {
+      "source": "双翼",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "hai cánh",
+        "song dực"
+      ]
+    },
+    {
+      "source": "独角",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "một sừng",
+        "độc giác"
+      ]
+    },
+    {
+      "source": "金翅",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "cánh vàng",
+        "kim sí"
+      ]
+    },
+    {
+      "source": "铁背",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "lưng sắt",
+        "thiết bối"
+      ]
+    },
+    {
+      "source": "雷角",
+      "role": "MORPHOLOGY_ELEMENT",
+      "targetCandidates": [
+        "sừng sét",
+        "lôi giác"
+      ]
+    },
+    {
+      "source": "赤甲",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "giáp đỏ",
+        "xích giáp"
+      ]
+    },
+    {
+      "source": "冰魄",
+      "role": "ATTRIBUTE",
+      "targetCandidates": [
+        "băng phách"
+      ]
+    },
+    {
+      "source": "噬魂",
+      "role": "ATTRIBUTE",
+      "targetCandidates": [
+        "phệ hồn",
+        "nuốt hồn",
+        "hút hồn",
+        "hút linh hồn"
+      ]
+    },
+    {
+      "source": "九尾",
+      "role": "MORPHOLOGY",
+      "targetCandidates": [
+        "chín đuôi",
+        "cửu vĩ"
+      ]
+    }
+  ],
+  "namedCues": [
+    "名为",
+    "名叫",
+    "叫作",
+    "叫做",
+    "唤作",
+    "取名为",
+    "名字叫"
+  ],
+  "criticalRoles": [
+    "CLASS",
+    "HEAD",
+    "ELEMENT",
+    "MORPHOLOGY",
+    "MORPHOLOGY_ELEMENT",
+    "ELEMENT_COLOR"
+  ],
+  "bodyPartHeads": [
+    {
+      "source": "爪印",
+      "targetCandidates": [
+        "dấu vuốt",
+        "dấu móng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "鳞",
+      "targetCandidates": [
+        "vảy"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "爪",
+      "targetCandidates": [
+        "vuốt",
+        "móng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "毛",
+      "targetCandidates": [
+        "lông"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "羽",
+      "targetCandidates": [
+        "lông",
+        "lông vũ"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "角",
+      "targetCandidates": [
+        "sừng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "尾",
+      "targetCandidates": [
+        "đuôi"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "翼",
+      "targetCandidates": [
+        "cánh"
+      ],
+      "authority": "STRONG"
+    }
+  ],
+  "bodyPartModifierMaxChars": 2
+}

@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-worlds-factions-vi-seed-v1",
+  "description": "Thế giới, giới vực, chính/ma đạo và thế lực tu tiên.",
+  "entries": [
+    {
+      "source": "修真界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "cultivation world",
+      "preferredTarget": "Tu Chân Giới",
+      "targetCandidates": [
+        "Tu Chân Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "修仙界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "immortal cultivation world",
+      "preferredTarget": "Tu Tiên Giới",
+      "targetCandidates": [
+        "Tu Tiên Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "人界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "mortal realm",
+      "preferredTarget": "Nhân Giới",
+      "targetCandidates": [
+        "Nhân Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "灵界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "spirit realm",
+      "preferredTarget": "Linh Giới",
+      "targetCandidates": [
+        "Linh Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "仙界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "immortal realm",
+      "preferredTarget": "Tiên Giới",
+      "targetCandidates": [
+        "Tiên Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "divine realm",
+      "preferredTarget": "Thần Giới",
+      "targetCandidates": [
+        "Thần Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "魔界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "demon realm",
+      "preferredTarget": "Ma Giới",
+      "targetCandidates": [
+        "Ma Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "妖界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "demon-beast realm",
+      "preferredTarget": "Yêu Giới",
+      "targetCandidates": [
+        "Yêu Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "冥界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "nether realm",
+      "preferredTarget": "Minh Giới",
+      "targetCandidates": [
+        "Minh Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "上界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "upper realm",
+      "preferredTarget": "Thượng Giới",
+      "targetCandidates": [
+        "Thượng Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "下界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "lower realm",
+      "preferredTarget": "Hạ Giới",
+      "targetCandidates": [
+        "Hạ Giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "小世界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "small world",
+      "preferredTarget": "tiểu thế giới",
+      "targetCandidates": [
+        "tiểu thế giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "秘境",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "secret realm",
+      "preferredTarget": "bí cảnh",
+      "targetCandidates": [
+        "bí cảnh"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "洞天",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "pocket paradise",
+      "preferredTarget": "động thiên",
+      "targetCandidates": [
+        "động thiên"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "福地",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "blessed land",
+      "preferredTarget": "phúc địa",
+      "targetCandidates": [
+        "phúc địa"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "异界",
+      "aliases": [],
+      "category": "world",
+      "semanticSense": "otherworld",
+      "preferredTarget": "dị giới",
+      "targetCandidates": [
+        "dị giới"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "宗门",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "cultivation sect",
+      "preferredTarget": "tông môn",
+      "targetCandidates": [
+        "tông môn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "门派",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "school/sect",
+      "preferredTarget": "môn phái",
+      "targetCandidates": [
+        "môn phái"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "圣地",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "holy land",
+      "preferredTarget": "thánh địa",
+      "targetCandidates": [
+        "thánh địa"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "世家",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "cultivation clan",
+      "preferredTarget": "thế gia",
+      "targetCandidates": [
+        "thế gia"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "仙门",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "immortal sect",
+      "preferredTarget": "tiên môn",
+      "targetCandidates": [
+        "tiên môn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "魔宗",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "demonic sect",
+      "preferredTarget": "ma tông",
+      "targetCandidates": [
+        "ma tông"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "邪宗",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "evil sect",
+      "preferredTarget": "tà tông",
+      "targetCandidates": [
+        "tà tông"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "正道",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "orthodox path",
+      "preferredTarget": "chính đạo",
+      "targetCandidates": [
+        "chính đạo"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "魔道",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "demonic path",
+      "preferredTarget": "ma đạo",
+      "targetCandidates": [
+        "ma đạo"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "邪道",
+      "aliases": [],
+      "category": "faction",
+      "semanticSense": "evil path",
+      "preferredTarget": "tà đạo",
+      "targetCandidates": [
+        "tà đạo"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "通道",
+      "aliases": [],
+      "category": "world-path",
+      "semanticSense": "passage/channel connecting places or realms",
+      "preferredTarget": "thông đạo",
+      "targetCandidates": [
+        "thông đạo",
+        "lối thông"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.78,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    }
+  ]
+}

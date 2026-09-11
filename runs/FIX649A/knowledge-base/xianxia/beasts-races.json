@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "packId": "xianxia-beasts-races-vi-fix647",
+  "description": "Sinh vật, chủng tộc, linh thú/yêu thú/dị thú, linh sủng, tọa kỵ và hệ sinh thái tu tiên. Generic ontology only; no benchmark sentence mappings.",
+  "entries": [
+    {
+      "source": "灵兽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "spiritual beast",
+      "preferredTarget": "linh thú",
+      "targetCandidates": [
+        "linh thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "妖兽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "demon beast",
+      "preferredTarget": "yêu thú",
+      "targetCandidates": [
+        "yêu thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "魔兽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "demonic beast",
+      "preferredTarget": "ma thú",
+      "targetCandidates": [
+        "ma thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "凶兽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "ferocious beast",
+      "preferredTarget": "hung thú",
+      "targetCandidates": [
+        "hung thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "异兽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "strange beast",
+      "preferredTarget": "dị thú",
+      "targetCandidates": [
+        "dị thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神兽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "divine beast",
+      "preferredTarget": "thần thú",
+      "targetCandidates": [
+        "thần thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "圣兽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "sacred beast",
+      "preferredTarget": "thánh thú",
+      "targetCandidates": [
+        "thánh thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "妖族",
+      "aliases": [],
+      "category": "race",
+      "semanticSense": "demon race",
+      "preferredTarget": "Yêu tộc",
+      "targetCandidates": [
+        "Yêu tộc"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "魔族",
+      "aliases": [],
+      "category": "race",
+      "semanticSense": "demon/devil race",
+      "preferredTarget": "Ma tộc",
+      "targetCandidates": [
+        "Ma tộc"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "神族",
+      "aliases": [],
+      "category": "race",
+      "semanticSense": "divine race",
+      "preferredTarget": "Thần tộc",
+      "targetCandidates": [
+        "Thần tộc"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "龙族",
+      "aliases": [],
+      "category": "race",
+      "semanticSense": "dragon race",
+      "preferredTarget": "Long tộc",
+      "targetCandidates": [
+        "Long tộc"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "凤族",
+      "aliases": [],
+      "category": "race",
+      "semanticSense": "phoenix race",
+      "preferredTarget": "Phượng tộc",
+      "targetCandidates": [
+        "Phượng tộc"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "妖禽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "demonic bird",
+      "preferredTarget": "yêu cầm",
+      "targetCandidates": [
+        "yêu cầm"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "灵禽",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "spiritual bird",
+      "preferredTarget": "linh cầm",
+      "targetCandidates": [
+        "linh cầm"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "妖虫",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "demonic insect",
+      "preferredTarget": "yêu trùng",
+      "targetCandidates": [
+        "yêu trùng"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "灵虫",
+      "aliases": [],
+      "category": "beast",
+      "semanticSense": "spiritual insect",
+      "preferredTarget": "linh trùng",
+      "targetCandidates": [
+        "linh trùng"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "灵宠",
+      "aliases": [],
+      "category": "beast-role",
+      "semanticSense": "spiritual pet",
+      "preferredTarget": "linh sủng",
+      "targetCandidates": [
+        "linh sủng",
+        "thú cưng linh"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "坐骑",
+      "aliases": [],
+      "category": "beast-role",
+      "semanticSense": "mount",
+      "preferredTarget": "tọa kỵ",
+      "targetCandidates": [
+        "tọa kỵ",
+        "thú cưỡi"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "兽王",
+      "aliases": [],
+      "category": "beast-rank",
+      "semanticSense": "beast king",
+      "preferredTarget": "thú vương",
+      "targetCandidates": [
+        "thú vương"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "兽潮",
+      "aliases": [],
+      "category": "beast-event",
+      "semanticSense": "beast tide",
+      "preferredTarget": "thú triều",
+      "targetCandidates": [
+        "thú triều"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "兽契",
+      "aliases": [],
+      "category": "beast-contract",
+      "semanticSense": "beast contract",
+      "preferredTarget": "thú khế",
+      "targetCandidates": [
+        "thú khế",
+        "khế ước linh thú"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "兽核",
+      "aliases": [],
+      "category": "beast-resource",
+      "semanticSense": "beast core",
+      "preferredTarget": "thú hạch",
+      "targetCandidates": [
+        "thú hạch"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "妖丹",
+      "aliases": [],
+      "category": "beast-resource",
+      "semanticSense": "demon core",
+      "preferredTarget": "yêu đan",
+      "targetCandidates": [
+        "yêu đan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "蛟龙",
+      "aliases": [],
+      "category": "beast-species",
+      "semanticSense": "flood dragon",
+      "preferredTarget": "giao long",
+      "targetCandidates": [
+        "giao long"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "青鸾",
+      "aliases": [],
+      "category": "beast-species",
+      "semanticSense": "qingluan divine bird",
+      "preferredTarget": "Thanh Loan",
+      "targetCandidates": [
+        "Thanh Loan",
+        "thanh loan"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "凤凰",
+      "aliases": [],
+      "category": "beast-species",
+      "semanticSense": "phoenix",
+      "preferredTarget": "Phượng Hoàng",
+      "targetCandidates": [
+        "Phượng Hoàng",
+        "phượng hoàng"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "玄龟",
+      "aliases": [],
+      "category": "beast-species",
+      "semanticSense": "black tortoise",
+      "preferredTarget": "Huyền Quy",
+      "targetCandidates": [
+        "Huyền Quy",
+        "huyền quy"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "白泽",
+      "aliases": [],
+      "category": "beast-species",
+      "semanticSense": "Bai Ze divine beast",
+      "preferredTarget": "Bạch Trạch",
+      "targetCandidates": [
+        "Bạch Trạch"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    },
+    {
+      "source": "九尾天狐",
+      "aliases": [],
+      "category": "beast-species",
+      "semanticSense": "nine-tailed heavenly fox",
+      "preferredTarget": "Cửu Vĩ Thiên Hồ",
+      "targetCandidates": [
+        "Cửu Vĩ Thiên Hồ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.93,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia creature ecology"
+    }
+  ]
+}

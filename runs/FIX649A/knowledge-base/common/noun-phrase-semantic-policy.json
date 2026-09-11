@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "packId": "common-noun-phrase-semantic-composer-fix648",
+  "description": "Generic head-first Chinese noun/domain phrase semantics. FIX648 expands recurrent weak lexical heads from regression evidence while remaining sentence-agnostic; natural Vietnamese is allowed unless a separately verified named entity owns the span.",
+  "maxLeftModifierChars": 5,
+  "headEntries": [
+    {
+      "source": "令牌",
+      "semanticClass": "domain-object",
+      "targetCandidates": [
+        "lệnh bài",
+        "thẻ lệnh"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "符纸",
+      "semanticClass": "domain-object",
+      "targetCandidates": [
+        "giấy phù",
+        "giấy bùa",
+        "phù giấy"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "阵台",
+      "semanticClass": "formation-device",
+      "targetCandidates": [
+        "đài trận",
+        "bệ trận",
+        "đài trận pháp",
+        "bệ trận pháp"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "石片",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "mảnh đá",
+        "phiến đá",
+        "thẻ đá"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "灵火",
+      "semanticClass": "domain-energy",
+      "targetCandidates": [
+        "linh hỏa",
+        "lửa linh"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "暗格",
+      "semanticClass": "ordinary-structure",
+      "targetCandidates": [
+        "ngăn bí mật",
+        "hộc bí mật",
+        "ngăn kín"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "图册",
+      "semanticClass": "document",
+      "targetCandidates": [
+        "tập bản đồ",
+        "tập đồ",
+        "sách hình",
+        "tập hình"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "阵钉",
+      "semanticClass": "formation-component",
+      "targetCandidates": [
+        "đinh trận",
+        "đinh trận pháp"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "瓷瓶",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "bình sứ",
+        "lọ sứ"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "木桩",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "cọc gỗ"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "铜镜",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "gương đồng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "铜灯",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "đèn đồng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "铁钟",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "chuông sắt"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "铁盒",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "hộp sắt"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "木牌",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "tấm bảng gỗ",
+        "thẻ gỗ",
+        "biển gỗ"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "石板",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "tấm đá",
+        "phiến đá"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "铁柱",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "cột sắt",
+        "trụ sắt"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "玉盒",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "hộp ngọc",
+        "hộp bằng ngọc"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "玉珠",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "viên ngọc",
+        "ngọc châu"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "竹篮",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "giỏ tre",
+        "rổ tre"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "碗",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "bát",
+        "chén"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "瓶",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "bình",
+        "lọ"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "桩",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "cọc"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "镜",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "gương"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "灯",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "đèn"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "盒",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "hộp"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "板",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "tấm",
+        "phiến"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "柱",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "cột",
+        "trụ"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "钟",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "chuông"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "台",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "bệ",
+        "đài"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "藤筐",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "giỏ mây",
+        "giỏ đan bằng dây leo",
+        "sọt mây"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "水缸",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "chum nước",
+        "vại nước",
+        "bể nước"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "纸条",
+      "semanticClass": "ordinary-object",
+      "targetCandidates": [
+        "mẩu giấy",
+        "tờ giấy",
+        "giấy ghi chú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "符纹",
+      "semanticClass": "formation-component",
+      "targetCandidates": [
+        "phù văn",
+        "vân phù",
+        "hoa văn phù"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "丹纹",
+      "semanticClass": "alchemy-mark",
+      "targetCandidates": [
+        "đan văn",
+        "vân đan",
+        "hoa văn trên đan dược"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "剑谱",
+      "semanticClass": "technique-document",
+      "targetCandidates": [
+        "kiếm phổ",
+        "phổ kiếm",
+        "sách kiếm pháp"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "口诀",
+      "semanticClass": "technique-formula",
+      "targetCandidates": [
+        "khẩu quyết",
+        "câu khẩu quyết"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "令符",
+      "semanticClass": "domain-object",
+      "targetCandidates": [
+        "lệnh phù",
+        "phù lệnh"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "兽爪印",
+      "semanticClass": "creature-trace",
+      "targetCandidates": [
+        "dấu vuốt thú",
+        "dấu móng thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "爪印",
+      "semanticClass": "creature-trace",
+      "targetCandidates": [
+        "dấu vuốt",
+        "dấu móng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "魂晶",
+      "semanticClass": "soul-material",
+      "targetCandidates": [
+        "hồn tinh",
+        "tinh thể hồn"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "傀儡",
+      "semanticClass": "construct",
+      "targetCandidates": [
+        "khôi lỗi",
+        "con rối"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "药阁",
+      "semanticClass": "faction-place",
+      "targetCandidates": [
+        "dược các",
+        "lầu dược"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "剑阁",
+      "semanticClass": "faction-place",
+      "targetCandidates": [
+        "kiếm các",
+        "lầu kiếm"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "炼器堂",
+      "semanticClass": "faction-place",
+      "targetCandidates": [
+        "luyện khí đường",
+        "đường luyện khí"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "驭兽堂",
+      "semanticClass": "faction-place",
+      "targetCandidates": [
+        "ngự thú đường",
+        "đường ngự thú"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "古殿",
+      "semanticClass": "place",
+      "targetCandidates": [
+        "cổ điện",
+        "điện cổ"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "山谷",
+      "semanticClass": "place",
+      "targetCandidates": [
+        "thung lũng",
+        "sơn cốc"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "火洞",
+      "semanticClass": "place",
+      "targetCandidates": [
+        "hỏa động",
+        "hang lửa"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "冰谷",
+      "semanticClass": "place",
+      "targetCandidates": [
+        "băng cốc",
+        "thung lũng băng"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "铁剑",
+      "semanticClass": "ordinary-weapon",
+      "targetCandidates": [
+        "kiếm sắt",
+        "gươm sắt"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "木剑",
+      "semanticClass": "ordinary-weapon",
+      "targetCandidates": [
+        "kiếm gỗ",
+        "gươm gỗ"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "赤铜印",
+      "semanticClass": "domain-object",
+      "targetCandidates": [
+        "ấn đồng đỏ",
+        "xích đồng ấn"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "飞剑",
+      "semanticClass": "domain-weapon",
+      "targetCandidates": [
+        "phi kiếm",
+        "kiếm bay"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "参",
+      "semanticClass": "alchemy-ingredient",
+      "targetCandidates": [
+        "sâm"
+      ],
+      "authority": "STRONG"
+    },
+    {
+      "source": "草",
+      "semanticClass": "alchemy-ingredient",
+      "targetCandidates": [
+        "cỏ",
+        "thảo"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "果",
+      "semanticClass": "alchemy-ingredient",
+      "targetCandidates": [
+        "quả",
+        "trái"
+      ],
+      "authority": "SOFT"
+    },
+    {
+      "source": "莲子",
+      "semanticClass": "alchemy-ingredient",
+      "targetCandidates": [
+        "hạt sen",
+        "liên tử"
+      ],
+      "authority": "STRONG"
+    }
+  ],
+  "modifierEntries": [
+    {
+      "source": "青叶",
+      "role": "DOMAIN_MODIFIER",
+      "targetCandidates": [
+        "lá xanh",
+        "thanh diệp"
+      ]
+    },
+    {
+      "source": "紫叶",
+      "role": "DOMAIN_MODIFIER",
+      "targetCandidates": [
+        "lá tím",
+        "tử diệp"
+      ]
+    },
+    {
+      "source": "赤阳",
+      "role": "DOMAIN_MODIFIER",
+      "targetCandidates": [
+        "xích dương",
+        "dương đỏ"
+      ]
+    },
+    {
+      "source": "青灵",
+      "role": "DOMAIN_MODIFIER",
+      "targetCandidates": [
+        "thanh linh",
+        "linh xanh"
+      ]
+    },
+    {
+      "source": "地火",
+      "role": "DOMAIN_MODIFIER",
+      "targetCandidates": [
+        "địa hỏa",
+        "lửa đất"
+      ]
+    },
+    {
+      "source": "无名",
+      "role": "STATE",
+      "targetCandidates": [
+        "vô danh",
+        "không tên"
+      ]
+    },
+    {
+      "source": "赤铜",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "đồng đỏ",
+        "xích đồng"
+      ]
+    },
+    {
+      "source": "传信",
+      "role": "DOMAIN_FUNCTION",
+      "targetCandidates": [
+        "truyền tin",
+        "đưa tin"
+      ]
+    },
+    {
+      "source": "宗门",
+      "role": "DOMAIN_FUNCTION",
+      "targetCandidates": [
+        "tông môn"
+      ]
+    },
+    {
+      "source": "普通",
+      "role": "ORDINARY_QUALITY",
+      "targetCandidates": [
+        "bình thường",
+        "thông thường"
+      ]
+    },
+    {
+      "source": "旧",
+      "role": "AGE_STATE",
+      "targetCandidates": [
+        "cũ"
+      ]
+    },
+    {
+      "source": "空白",
+      "role": "STATE",
+      "targetCandidates": [
+        "trống",
+        "trắng",
+        "chưa viết"
+      ]
+    },
+    {
+      "source": "黑铁",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "sắt đen",
+        "hắc thiết"
+      ]
+    },
+    {
+      "source": "青铜",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "đồng",
+        "đồng xanh",
+        "thanh đồng"
+      ]
+    },
+    {
+      "source": "白瓷",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "sứ trắng",
+        "bạch từ"
+      ]
+    },
+    {
+      "source": "黑木",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "gỗ đen",
+        "hắc mộc"
+      ]
+    },
+    {
+      "source": "竹",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "tre",
+        "trúc"
+      ]
+    },
+    {
+      "source": "铁",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "sắt",
+        "thiết"
+      ]
+    },
+    {
+      "source": "木",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "gỗ",
+        "mộc"
+      ]
+    },
+    {
+      "source": "石",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "đá",
+        "thạch"
+      ]
+    },
+    {
+      "source": "玉",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "ngọc"
+      ]
+    },
+    {
+      "source": "铜",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "đồng"
+      ]
+    },
+    {
+      "source": "瓷",
+      "role": "MATERIAL",
+      "targetCandidates": [
+        "sứ"
+      ]
+    },
+    {
+      "source": "白",
+      "role": "COLOR",
+      "targetCandidates": [
+        "trắng",
+        "bạch"
+      ]
+    },
+    {
+      "source": "黑",
+      "role": "COLOR",
+      "targetCandidates": [
+        "đen",
+        "hắc"
+      ]
+    },
+    {
+      "source": "青",
+      "role": "COLOR",
+      "targetCandidates": [
+        "xanh",
+        "thanh"
+      ]
+    },
+    {
+      "source": "红",
+      "role": "COLOR",
+      "targetCandidates": [
+        "đỏ",
+        "hồng"
+      ]
+    },
+    {
+      "source": "紫",
+      "role": "COLOR",
+      "targetCandidates": [
+        "tím",
+        "tử"
+      ]
+    },
+    {
+      "source": "暗红色",
+      "role": "COLOR",
+      "targetCandidates": [
+        "đỏ sẫm",
+        "đỏ tối"
+      ]
+    },
+    {
+      "source": "青色",
+      "role": "COLOR",
+      "targetCandidates": [
+        "màu xanh",
+        "xanh",
+        "thanh sắc"
+      ]
+    },
+    {
+      "source": "黄色",
+      "role": "COLOR",
+      "targetCandidates": [
+        "màu vàng",
+        "vàng"
+      ]
+    },
+    {
+      "source": "传送",
+      "role": "DOMAIN_FUNCTION",
+      "targetCandidates": [
+        "truyền tống",
+        "dịch chuyển"
+      ]
+    },
+    {
+      "source": "镇阵",
+      "role": "DOMAIN_FUNCTION",
+      "targetCandidates": [
+        "trấn trận",
+        "ổn định trận pháp"
+      ]
+    },
+    {
+      "source": "聚灵",
+      "role": "DOMAIN_FUNCTION",
+      "targetCandidates": [
+        "tụ linh"
+      ]
+    }
+  ],
+  "namedParentTypes": [
+    "NAMED_ARTIFACT",
+    "NAMED_TECHNIQUE",
+    "NAMED_DOCUMENT",
+    "PERSON_NAME",
+    "NAMED_PLACE_OR_SECT"
+  ],
+  "guidanceMaxRows": 2,
+  "criticalRoles": [
+    "HEAD",
+    "MATERIAL",
+    "COLOR",
+    "DOMAIN_FUNCTION"
+  ]
+}

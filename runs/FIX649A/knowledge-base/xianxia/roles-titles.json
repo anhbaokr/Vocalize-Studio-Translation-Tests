@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 2,
+  "packId": "xianxia-roles-titles-fix642",
+  "description": "Danh xưng, vai vế, tông môn và xưng hô phổ quát trong tiên hiệp/tu tiên. Genre evidence is soft.",
+  "entries": [
+    {
+      "source": "少侠",
+      "aliases": [],
+      "category": "honorific",
+      "semanticSense": "young martial/cultivation hero",
+      "preferredTarget": "thiếu hiệp",
+      "targetCandidates": [
+        "thiếu hiệp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.99,
+      "targetTextAuthority": false,
+      "criticalForQa": true,
+      "notes": ""
+    },
+    {
+      "source": "道友",
+      "aliases": [],
+      "category": "honorific",
+      "semanticSense": "fellow cultivator",
+      "preferredTarget": "đạo hữu",
+      "targetCandidates": [
+        "đạo hữu"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "前辈",
+      "aliases": [],
+      "category": "honorific",
+      "semanticSense": "senior/respected predecessor",
+      "preferredTarget": "tiền bối",
+      "targetCandidates": [
+        "tiền bối"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "晚辈",
+      "aliases": [],
+      "category": "self-address",
+      "semanticSense": "junior speaking to a senior",
+      "preferredTarget": "vãn bối",
+      "targetCandidates": [
+        "vãn bối"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师父",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "master/teacher",
+      "preferredTarget": "sư phụ",
+      "targetCandidates": [
+        "sư phụ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师尊",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "honored master",
+      "preferredTarget": "sư tôn",
+      "targetCandidates": [
+        "sư tôn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "弟子",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "disciple",
+      "preferredTarget": "đệ tử",
+      "targetCandidates": [
+        "đệ tử"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "徒儿",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "master addressing disciple",
+      "preferredTarget": "đồ nhi",
+      "targetCandidates": [
+        "đồ nhi"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师兄",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "senior male fellow disciple",
+      "preferredTarget": "sư huynh",
+      "targetCandidates": [
+        "sư huynh"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师姐",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "senior female fellow disciple",
+      "preferredTarget": "sư tỷ",
+      "targetCandidates": [
+        "sư tỷ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师弟",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "junior male fellow disciple",
+      "preferredTarget": "sư đệ",
+      "targetCandidates": [
+        "sư đệ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师妹",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "junior female fellow disciple",
+      "preferredTarget": "sư muội",
+      "targetCandidates": [
+        "sư muội"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师叔",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "master's junior martial brother",
+      "preferredTarget": "sư thúc",
+      "targetCandidates": [
+        "sư thúc"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师伯",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "master's senior martial brother",
+      "preferredTarget": "sư bá",
+      "targetCandidates": [
+        "sư bá"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师祖",
+      "aliases": [],
+      "category": "relationship-title",
+      "semanticSense": "master's master/ancestral master",
+      "preferredTarget": "sư tổ",
+      "targetCandidates": [
+        "sư tổ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "长老",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "sect elder",
+      "preferredTarget": "trưởng lão",
+      "targetCandidates": [
+        "trưởng lão"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "太上长老",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "supreme elder",
+      "preferredTarget": "thái thượng trưởng lão",
+      "targetCandidates": [
+        "thái thượng trưởng lão"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "宗主",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "sect lord",
+      "preferredTarget": "tông chủ",
+      "targetCandidates": [
+        "tông chủ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "掌门",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "head of a sect",
+      "preferredTarget": "chưởng môn",
+      "targetCandidates": [
+        "chưởng môn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "门主",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "head of a school/gate",
+      "preferredTarget": "môn chủ",
+      "targetCandidates": [
+        "môn chủ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "老祖",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "old ancestor",
+      "preferredTarget": "lão tổ",
+      "targetCandidates": [
+        "lão tổ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "圣子",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "holy son",
+      "preferredTarget": "thánh tử",
+      "targetCandidates": [
+        "thánh tử"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "圣女",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "holy maiden",
+      "preferredTarget": "thánh nữ",
+      "targetCandidates": [
+        "thánh nữ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "护法",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "protector/guardian",
+      "preferredTarget": "hộ pháp",
+      "targetCandidates": [
+        "hộ pháp"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "堂主",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "hall master",
+      "preferredTarget": "đường chủ",
+      "targetCandidates": [
+        "đường chủ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "峰主",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "peak master",
+      "preferredTarget": "phong chủ",
+      "targetCandidates": [
+        "phong chủ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "门人",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "member/disciple of a school",
+      "preferredTarget": "môn nhân",
+      "targetCandidates": [
+        "môn nhân"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "同门",
+      "aliases": [],
+      "category": "relationship",
+      "semanticSense": "members of same sect",
+      "preferredTarget": "đồng môn",
+      "targetCandidates": [
+        "đồng môn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "师门",
+      "aliases": [],
+      "category": "relationship",
+      "semanticSense": "teacher's school/lineage",
+      "preferredTarget": "sư môn",
+      "targetCandidates": [
+        "sư môn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "道侣",
+      "aliases": [],
+      "category": "relationship",
+      "semanticSense": "cultivation partner",
+      "preferredTarget": "đạo lữ",
+      "targetCandidates": [
+        "đạo lữ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "本座",
+      "aliases": [],
+      "category": "self-address",
+      "semanticSense": "high-status archaic self-reference",
+      "preferredTarget": "bổn tọa",
+      "targetCandidates": [
+        "bổn tọa"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "本尊",
+      "aliases": [],
+      "category": "self-address",
+      "semanticSense": "high-status self-reference",
+      "preferredTarget": "bổn tôn",
+      "targetCandidates": [
+        "bổn tôn"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "本君",
+      "aliases": [],
+      "category": "self-address",
+      "semanticSense": "lordly self-reference",
+      "preferredTarget": "bổn quân",
+      "targetCandidates": [
+        "bổn quân"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "本帝",
+      "aliases": [],
+      "category": "self-address",
+      "semanticSense": "emperor-level self-reference",
+      "preferredTarget": "bổn đế",
+      "targetCandidates": [
+        "bổn đế"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "老夫",
+      "aliases": [],
+      "category": "self-address",
+      "semanticSense": "elder male self-reference",
+      "preferredTarget": "lão phu",
+      "targetCandidates": [
+        "lão phu"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "在下",
+      "aliases": [],
+      "category": "self-address",
+      "semanticSense": "polite jianghu self-reference",
+      "preferredTarget": "tại hạ",
+      "targetCandidates": [
+        "tại hạ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "阁下",
+      "aliases": [],
+      "category": "honorific",
+      "semanticSense": "polite address to another",
+      "preferredTarget": "các hạ",
+      "targetCandidates": [
+        "các hạ"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "诸位",
+      "aliases": [],
+      "category": "honorific",
+      "semanticSense": "everyone / honored people",
+      "preferredTarget": "chư vị",
+      "targetCandidates": [
+        "chư vị"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.9,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "我等",
+      "aliases": [],
+      "category": "group-self",
+      "semanticSense": "we/us in classical register",
+      "preferredTarget": "chúng ta",
+      "targetCandidates": [
+        "chúng ta",
+        "bọn ta",
+        "chúng tôi"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.75,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "你们",
+      "aliases": [],
+      "category": "group-address",
+      "semanticSense": "you plural; classical genre may prefer respectful address",
+      "preferredTarget": "các vị",
+      "targetCandidates": [
+        "các vị",
+        "chư vị",
+        "các ngươi"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.65,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": ""
+    },
+    {
+      "source": "姑娘",
+      "aliases": [],
+      "category": "honorific",
+      "semanticSense": "young woman / maiden in historical-xianxia address",
+      "preferredTarget": "cô nương",
+      "targetCandidates": [
+        "cô nương"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.92,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic title; useful for surname+title name detection"
+    },
+    {
+      "source": "公子",
+      "aliases": [],
+      "category": "honorific",
+      "semanticSense": "young nobleman / gentleman in historical-xianxia address",
+      "preferredTarget": "công tử",
+      "targetCandidates": [
+        "công tử"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.92,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic title; useful for surname+title name detection"
+    },
+    {
+      "source": "仙子",
+      "aliases": [],
+      "category": "honorific",
+      "semanticSense": "female immortal/cultivator honorific",
+      "preferredTarget": "tiên tử",
+      "targetCandidates": [
+        "tiên tử"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.92,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "generic xianxia title"
+    },
+    {
+      "source": "药童",
+      "aliases": [],
+      "category": "sect-role",
+      "semanticSense": "medicine attendant/apprentice",
+      "preferredTarget": "dược đồng",
+      "targetCandidates": [
+        "dược đồng",
+        "đồng tử trông dược"
+      ],
+      "scope": "GENRE",
+      "hardness": "soft",
+      "confidence": 0.96,
+      "targetTextAuthority": false,
+      "criticalForQa": false,
+      "notes": "Generic role, not a person name."
+    }
+  ]
+}
